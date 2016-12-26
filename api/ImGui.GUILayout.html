@@ -1,0 +1,1144 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class GUILayout
+   | ImGui Doc </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class GUILayout
+   | ImGui Doc ">
+    <meta name="generator" content="docfx 2.9.3.0">
+    
+    <link rel="shortcut icon" href="../images/imgui_favico.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/imgui_logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="ImGui_GUILayout" data-uid="ImGui.GUILayout">Class GUILayout
+              </h1>
+              <div class="markdown level0 summary"><p>The interface for GUI with automatic layout.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritance">
+                <h5>Inheritance</h5>
+                  <div class="level0"><span class="xref">System.Object</span></div>
+                  <div class="level1"><span class="xref">GUILayout</span></div>
+              </div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetHashCode()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.MemberwiseClone()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ToString()</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:ImGui</h6>
+              <h6><strong>Assembly</strong>:ImGui.dll</h6>
+              <h5 id="ImGui_GUILayout_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public class GUILayout</code></pre>
+              </div>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_BeginHorizontal_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.BeginHorizontal(ImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_BeginHorizontal_" data-uid="ImGui.GUILayout.BeginHorizontal*"></a>
+              <h4 id="ImGui_GUILayout_BeginHorizontal_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.BeginHorizontal(ImGui.LayoutOption[])">BeginHorizontal(LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Begin a horizontal layout group.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void BeginHorizontal(params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_BeginVertical_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.BeginVertical(ImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_BeginVertical_" data-uid="ImGui.GUILayout.BeginVertical*"></a>
+              <h4 id="ImGui_GUILayout_BeginVertical_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.BeginVertical(ImGui.LayoutOption[])">BeginVertical(LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Begin a vertical layout group.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void BeginVertical(params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_Button_System_String_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.Button(System.String%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_Button_" data-uid="ImGui.GUILayout.Button*"></a>
+              <h4 id="ImGui_GUILayout_Button_System_String_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.Button(System.String,System.String,ImGui.LayoutOption[])">Button(String, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout button. When the user click it, something will happen immediately.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Button(string text, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">text</span></td>
+                    <td><p>text to display on the button</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>true when the users clicks the button.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_EndHorizontal.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.EndHorizontal%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_EndHorizontal_" data-uid="ImGui.GUILayout.EndHorizontal*"></a>
+              <h4 id="ImGui_GUILayout_EndHorizontal" data-uid="ImGui.GUILayout.EndHorizontal">EndHorizontal()</h4>
+              <div class="markdown level1 summary"><p>End a horizontal layout group.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void EndHorizontal()</code></pre>
+              </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_EndVertical.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.EndVertical%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_EndVertical_" data-uid="ImGui.GUILayout.EndVertical*"></a>
+              <h4 id="ImGui_GUILayout_EndVertical" data-uid="ImGui.GUILayout.EndVertical">EndVertical()</h4>
+              <div class="markdown level1 summary"><p>End a vertical layout group.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void EndVertical()</code></pre>
+              </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_ExpandHeight_System_Boolean_.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.ExpandHeight(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_ExpandHeight_" data-uid="ImGui.GUILayout.ExpandHeight*"></a>
+              <h4 id="ImGui_GUILayout_ExpandHeight_System_Boolean_" data-uid="ImGui.GUILayout.ExpandHeight(System.Boolean)">ExpandHeight(Boolean)</h4>
+              <div class="markdown level1 summary"><p>Set whether the height of a control should be expanded to occupy as much space as possible.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static LayoutOption ExpandHeight(bool expand)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">expand</span></td>
+                    <td><p>expanded?</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a></td>
+                    <td><p>A <a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a> that will expand the height of a control/group.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_ExpandWidth_System_Boolean_.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.ExpandWidth(System.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_ExpandWidth_" data-uid="ImGui.GUILayout.ExpandWidth*"></a>
+              <h4 id="ImGui_GUILayout_ExpandWidth_System_Boolean_" data-uid="ImGui.GUILayout.ExpandWidth(System.Boolean)">ExpandWidth(Boolean)</h4>
+              <div class="markdown level1 summary"><p>Set whether the width of a control should be expanded to occupy as much space as possible.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static LayoutOption ExpandWidth(bool expand)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">expand</span></td>
+                    <td><p>expanded?</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a></td>
+                    <td><p>A <a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a> that will expand the width of a control/group.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_FlexibleSpace.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.FlexibleSpace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_FlexibleSpace_" data-uid="ImGui.GUILayout.FlexibleSpace*"></a>
+              <h4 id="ImGui_GUILayout_FlexibleSpace" data-uid="ImGui.GUILayout.FlexibleSpace">FlexibleSpace()</h4>
+              <div class="markdown level1 summary"><p>Put a expanded space inside a layout group.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void FlexibleSpace()</code></pre>
+              </div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_Height_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.Height(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_Height_" data-uid="ImGui.GUILayout.Height*"></a>
+              <h4 id="ImGui_GUILayout_Height_System_Double_" data-uid="ImGui.GUILayout.Height(System.Double)">Height(Double)</h4>
+              <div class="markdown level1 summary"><p>Set the height of a control.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static LayoutOption Height(double height)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">height</span></td>
+                    <td><p>height value</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a></td>
+                    <td><p>A <a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a> that will set the height of a control/group.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_HoverButton_System_String_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.HoverButton(System.String%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_HoverButton_" data-uid="ImGui.GUILayout.HoverButton*"></a>
+              <h4 id="ImGui_GUILayout_HoverButton_System_String_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.HoverButton(System.String,System.String,ImGui.LayoutOption[])">HoverButton(String, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout button that will be actived when the mouse is over it.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool HoverButton(string text, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">text</span></td>
+                    <td><p>text to display on the button</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>whether it is activated (the mouse is over it)</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_Image_System_String_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.Image(System.String%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_Image_" data-uid="ImGui.GUILayout.Image*"></a>
+              <h4 id="ImGui_GUILayout_Image_System_String_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.Image(System.String,System.String,ImGui.LayoutOption[])">Image(String, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout image.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void Image(string filePath, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">filePath</span></td>
+                    <td><p>file path of the image to display. The path should be relative to current dir or absolute.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_Label_System_String_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.Label(System.String%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_Label_" data-uid="ImGui.GUILayout.Label*"></a>
+              <h4 id="ImGui_GUILayout_Label_System_String_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.Label(System.String,System.String,ImGui.LayoutOption[])">Label(String, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout label.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void Label(string text, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">text</span></td>
+                    <td><p>text to display on the label</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_PolygonButton_System_Collections_Generic_IReadOnlyList_ImGui_Point__ImGui_Rect_System_String_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.PolygonButton(System.Collections.Generic.IReadOnlyList%7BImGui.Point%7D%2CImGui.Rect%2CSystem.String%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_PolygonButton_" data-uid="ImGui.GUILayout.PolygonButton*"></a>
+              <h4 id="ImGui_GUILayout_PolygonButton_System_Collections_Generic_IReadOnlyList_ImGui_Point__ImGui_Rect_System_String_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.PolygonButton(System.Collections.Generic.IReadOnlyList{ImGui.Point},ImGui.Rect,System.String,System.String,ImGui.LayoutOption[])">PolygonButton(IReadOnlyList&lt;Point&gt;, Rect, String, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout polyon-button.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool PolygonButton(IReadOnlyList&lt;Point&gt; points, Rect textRect, string text, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="ImGui.Point.html">Point</a>&gt;</td>
+                    <td><span class="parametername">points</span></td>
+                    <td><p><a class="xref" href="ImGui.Point.html">Point</a> list of the polygon.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">textRect</span></td>
+                    <td><p>the rect that occupied by the text</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">text</span></td>
+                    <td><p>text to display on the button</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>true when the users clicks the button.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_Slider_ImGui_Size_System_Double_System_Double_System_Double_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.Slider(ImGui.Size%2CSystem.Double%2CSystem.Double%2CSystem.Double%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_Slider_" data-uid="ImGui.GUILayout.Slider*"></a>
+              <h4 id="ImGui_GUILayout_Slider_ImGui_Size_System_Double_System_Double_System_Double_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.Slider(ImGui.Size,System.Double,System.Double,System.Double,System.String,ImGui.LayoutOption[])">Slider(Size, Double, Double, Double, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout horizontal slider that user can drag to select a value.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double Slider(Size size, double value, double minValue, double maxValue, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Size.html">Size</a></td>
+                    <td><span class="parametername">size</span></td>
+                    <td><p>size of the slider</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">value</span></td>
+                    <td><p>The value the slider shows.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">minValue</span></td>
+                    <td><p>The value at the left end of the slider.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">maxValue</span></td>
+                    <td><p>The value at the right end of the slider.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><p>The value set by the user.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ImGui_GUILayout_Slider_ImGui_Size_System_Double_System_Double_System_Double_System_String_ImGui_LayoutOption____remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>minValue &lt;= value &lt;= maxValue</p>
+</div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_Space_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.Space(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_Space_" data-uid="ImGui.GUILayout.Space*"></a>
+              <h4 id="ImGui_GUILayout_Space_System_Double_" data-uid="ImGui.GUILayout.Space(System.Double)">Space(Double)</h4>
+              <div class="markdown level1 summary"><p>Put a fixed-size space inside a layout group.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static void Space(double pixels)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">pixels</span></td>
+                    <td><p>size of the space</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_StretchHeight_System_Int32_.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.StretchHeight(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_StretchHeight_" data-uid="ImGui.GUILayout.StretchHeight*"></a>
+              <h4 id="ImGui_GUILayout_StretchHeight_System_Int32_" data-uid="ImGui.GUILayout.StretchHeight(System.Int32)">StretchHeight(Int32)</h4>
+              <div class="markdown level1 summary"><p>Set the factor when expanding the height of a control.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static LayoutOption StretchHeight(int factor)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="parametername">factor</span></td>
+                    <td><p>the value of the factor</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a></td>
+                    <td><p>A <a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a> that will set the factor when expanding the height of a control/group.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_StretchWidth_System_Int32_.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.StretchWidth(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_StretchWidth_" data-uid="ImGui.GUILayout.StretchWidth*"></a>
+              <h4 id="ImGui_GUILayout_StretchWidth_System_Int32_" data-uid="ImGui.GUILayout.StretchWidth(System.Int32)">StretchWidth(Int32)</h4>
+              <div class="markdown level1 summary"><p>Set the factor when expanding the width of a control.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static LayoutOption StretchWidth(int factor)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><span class="parametername">factor</span></td>
+                    <td><p>the value of the factor</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a></td>
+                    <td><p>A <a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a> that will set the factor when expanding the width of a control/group.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_Toggle_System_Boolean_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.Toggle(System.Boolean%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_Toggle_" data-uid="ImGui.GUILayout.Toggle*"></a>
+              <h4 id="ImGui_GUILayout_Toggle_System_Boolean_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.Toggle(System.Boolean,System.String,ImGui.LayoutOption[])">Toggle(Boolean, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout toggle (check-box).</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Toggle(bool value, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">value</span></td>
+                    <td><p>Is this toggle checked or unchecked?</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>new value of the toggle</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_ToggleButton_System_String_System_Boolean_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.ToggleButton(System.String%2CSystem.Boolean%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_ToggleButton_" data-uid="ImGui.GUILayout.ToggleButton*"></a>
+              <h4 id="ImGui_GUILayout_ToggleButton_System_String_System_Boolean_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.ToggleButton(System.String,System.Boolean,System.String,ImGui.LayoutOption[])">ToggleButton(String, Boolean, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout button that acts like a toggle.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool ToggleButton(string text, bool value, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">text</span></td>
+                    <td><p>text to display on the button</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><span class="parametername">value</span></td>
+                    <td><p>Is this toggle checked or unchecked?</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>new value of the toggle-button</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_VSlider_ImGui_Size_System_Double_System_Double_System_Double_System_String_ImGui_LayoutOption___.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.VSlider(ImGui.Size%2CSystem.Double%2CSystem.Double%2CSystem.Double%2CSystem.String%2CImGui.LayoutOption%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_VSlider_" data-uid="ImGui.GUILayout.VSlider*"></a>
+              <h4 id="ImGui_GUILayout_VSlider_ImGui_Size_System_Double_System_Double_System_Double_System_String_ImGui_LayoutOption___" data-uid="ImGui.GUILayout.VSlider(ImGui.Size,System.Double,System.Double,System.Double,System.String,ImGui.LayoutOption[])">VSlider(Size, Double, Double, Double, String, LayoutOption[])</h4>
+              <div class="markdown level1 summary"><p>Create an auto-layout vertical slider that user can drag to select a value.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static double VSlider(Size size, double value, double minValue, double maxValue, string id, params LayoutOption[] options)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Size.html">Size</a></td>
+                    <td><span class="parametername">size</span></td>
+                    <td><p>size of the slider</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">value</span></td>
+                    <td><p>The value the slider shows.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">minValue</span></td>
+                    <td><p>The value at the top end of the slider.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">maxValue</span></td>
+                    <td><p>The value at the bottom end of the slider.</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">id</span></td>
+                    <td><p>the unique id of this control</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a>[]</td>
+                    <td><span class="parametername">options</span></td>
+                    <td><p>layout options that specify layouting properties. See also <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_">Width(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_">Height(Double)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_">ExpandWidth(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_">ExpandHeight(Boolean)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_">StretchWidth(Int32)</a>, <a class="xref" href="ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_">StretchHeight(Int32)</a></p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><p>The value set by the user.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 id="ImGui_GUILayout_VSlider_ImGui_Size_System_Double_System_Double_System_Double_System_String_ImGui_LayoutOption____remarks">Remarks</h5>
+              <div class="markdown level1 remarks"><p>minValue &lt;= value &lt;= maxValue</p>
+</div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout_Width_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.GUILayout.Width(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_GUILayout_Width_" data-uid="ImGui.GUILayout.Width*"></a>
+              <h4 id="ImGui_GUILayout_Width_System_Double_" data-uid="ImGui.GUILayout.Width(System.Double)">Width(Double)</h4>
+              <div class="markdown level1 summary"><p>Set the width of a control.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static LayoutOption Width(double width)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">width</span></td>
+                    <td><p>width value</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a></td>
+                    <td><p>A <a class="xref" href="ImGui.LayoutOption.html">LayoutOption</a> that will set the width of a control/group.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_GUILayout.md&amp;value=---%0Auid%3A%20ImGui.GUILayout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2016 zwcloud<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

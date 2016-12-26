@@ -1,0 +1,2475 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Struct Rect
+   | ImGui Doc </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Struct Rect
+   | ImGui Doc ">
+    <meta name="generator" content="docfx 2.9.3.0">
+    
+    <link rel="shortcut icon" href="../images/imgui_favico.png">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/imgui_logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content">
+              
+              
+              <h1 id="ImGui_Rect" data-uid="ImGui.Rect">Struct Rect
+              </h1>
+              <div class="markdown level0 summary"><p>Rect - The primitive which represents a rectangle.  Rects are stored as
+X, Y (Location) and Width and Height (Size).  As a result, Rects cannot have negative
+Width or Height.</p>
+</div>
+              <div class="markdown level0 conceptual"></div>
+              <div class="inheritedMembers">
+                <h5>Inherited Members</h5>
+                <div>
+                  <span class="xref">System.Object.Equals(System.Object, System.Object)</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.GetType()</span>
+                </div>
+                <div>
+                  <span class="xref">System.Object.ReferenceEquals(System.Object, System.Object)</span>
+                </div>
+              </div>
+              <h6><strong>Namespace</strong>:ImGui</h6>
+              <h6><strong>Assembly</strong>:ImGui.dll</h6>
+              <h5 id="ImGui_Rect_syntax">Syntax</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">[Serializable]
+public struct Rect : IFormattable</code></pre>
+              </div>
+              <h3 id="constructors">Constructors
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect__ctor_ImGui_Point_ImGui_Point_.md&amp;value=---%0Auid%3A%20ImGui.Rect.%23ctor(ImGui.Point%2CImGui.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect__ctor_" data-uid="ImGui.Rect.#ctor*"></a>
+              <h4 id="ImGui_Rect__ctor_ImGui_Point_ImGui_Point_" data-uid="ImGui.Rect.#ctor(ImGui.Point,ImGui.Point)">Rect(Point, Point)</h4>
+              <div class="markdown level1 summary"><p>Constructor which sets the initial values to bound the two points provided.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Rect(Point point1, Point point2)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td><span class="parametername">point1</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td><span class="parametername">point2</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect__ctor_ImGui_Point_ImGui_Size_.md&amp;value=---%0Auid%3A%20ImGui.Rect.%23ctor(ImGui.Point%2CImGui.Size)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect__ctor_" data-uid="ImGui.Rect.#ctor*"></a>
+              <h4 id="ImGui_Rect__ctor_ImGui_Point_ImGui_Size_" data-uid="ImGui.Rect.#ctor(ImGui.Point,ImGui.Size)">Rect(Point, Size)</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Rect(Point center, Size size)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td><span class="parametername">center</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Size.html">Size</a></td>
+                    <td><span class="parametername">size</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect__ctor_ImGui_Point_ImGui_Vector_.md&amp;value=---%0Auid%3A%20ImGui.Rect.%23ctor(ImGui.Point%2CImGui.Vector)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect__ctor_" data-uid="ImGui.Rect.#ctor*"></a>
+              <h4 id="ImGui_Rect__ctor_ImGui_Point_ImGui_Vector_" data-uid="ImGui.Rect.#ctor(ImGui.Point,ImGui.Vector)">Rect(Point, Vector)</h4>
+              <div class="markdown level1 summary"><p>Constructor which sets the initial values to bound the point provided and the point
+which results from point + vector.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Rect(Point point, Vector vector)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td><span class="parametername">point</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Vector.html">Vector</a></td>
+                    <td><span class="parametername">vector</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect__ctor_ImGui_Size_.md&amp;value=---%0Auid%3A%20ImGui.Rect.%23ctor(ImGui.Size)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect__ctor_" data-uid="ImGui.Rect.#ctor*"></a>
+              <h4 id="ImGui_Rect__ctor_ImGui_Size_" data-uid="ImGui.Rect.#ctor(ImGui.Size)">Rect(Size)</h4>
+              <div class="markdown level1 summary"><p>Constructor which sets the initial values to bound the (0,0) point and the point 
+that results from (0,0) + size. </p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Rect(Size size)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Size.html">Size</a></td>
+                    <td><span class="parametername">size</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect__ctor_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.%23ctor(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect__ctor_" data-uid="ImGui.Rect.#ctor*"></a>
+              <h4 id="ImGui_Rect__ctor_System_Double_System_Double_" data-uid="ImGui.Rect.#ctor(System.Double,System.Double)">Rect(Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Construct a rect by its width and height (top-left is at (0,0))</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Rect(double width, double height)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">width</span></td>
+                    <td><p>rect width</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">height</span></td>
+                    <td><p>rect height</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect__ctor_System_Double_System_Double_ImGui_Size_.md&amp;value=---%0Auid%3A%20ImGui.Rect.%23ctor(System.Double%2CSystem.Double%2CImGui.Size)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect__ctor_" data-uid="ImGui.Rect.#ctor*"></a>
+              <h4 id="ImGui_Rect__ctor_System_Double_System_Double_ImGui_Size_" data-uid="ImGui.Rect.#ctor(System.Double,System.Double,ImGui.Size)">Rect(Double, Double, Size)</h4>
+              <div class="markdown level1 summary"><p>Construct a rect by its top-left coordinate and its size(width, height)</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Rect(double x, double y, Size size)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">x</span></td>
+                    <td><p>top</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">y</span></td>
+                    <td><p>left</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Size.html">Size</a></td>
+                    <td><span class="parametername">size</span></td>
+                    <td><p>size of the rect</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect__ctor_System_Double_System_Double_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.%23ctor(System.Double%2CSystem.Double%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect__ctor_" data-uid="ImGui.Rect.#ctor*"></a>
+              <h4 id="ImGui_Rect__ctor_System_Double_System_Double_System_Double_System_Double_" data-uid="ImGui.Rect.#ctor(System.Double,System.Double,System.Double,System.Double)">Rect(Double, Double, Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Constructor which sets the initial values to the values of the parameters.
+Width and Height must be non-negative</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Rect(double x, double y, double width, double height)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">x</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">y</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">width</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">height</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="properties">Properties
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Big.md&amp;value=---%0Auid%3A%20ImGui.Rect.Big%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Big_" data-uid="ImGui.Rect.Big*"></a>
+              <h4 id="ImGui_Rect_Big" data-uid="ImGui.Rect.Big">Big</h4>
+              <div class="markdown level1 summary"><p>Big - a static property which provides a Big rectangle.  X and Y are zero
+and Width and Height are 9999.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Big { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Bottom.md&amp;value=---%0Auid%3A%20ImGui.Rect.Bottom%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Bottom_" data-uid="ImGui.Rect.Bottom*"></a>
+              <h4 id="ImGui_Rect_Bottom" data-uid="ImGui.Rect.Bottom">Bottom</h4>
+              <div class="markdown level1 summary"><p>Bottom Property - This is a read-only alias for Y + Height
+If this is the empty rectangle, the value will be negative infinity.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Bottom { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_BottomLeft.md&amp;value=---%0Auid%3A%20ImGui.Rect.BottomLeft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_BottomLeft_" data-uid="ImGui.Rect.BottomLeft*"></a>
+              <h4 id="ImGui_Rect_BottomLeft" data-uid="ImGui.Rect.BottomLeft">BottomLeft</h4>
+              <div class="markdown level1 summary"><p>BottomLeft Property - This is a read-only alias for the Point which is at X, Y + Height
+If this is the empty rectangle, the value will be positive infinity, negative infinity.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Point BottomLeft { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_BottomRight.md&amp;value=---%0Auid%3A%20ImGui.Rect.BottomRight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_BottomRight_" data-uid="ImGui.Rect.BottomRight*"></a>
+              <h4 id="ImGui_Rect_BottomRight" data-uid="ImGui.Rect.BottomRight">BottomRight</h4>
+              <div class="markdown level1 summary"><p>BottomRight Property - This is a read-only alias for the Point which is at X + Width, Y + Height
+If this is the empty rectangle, the value will be negative infinity, negative infinity.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Point BottomRight { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Center.md&amp;value=---%0Auid%3A%20ImGui.Rect.Center%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Center_" data-uid="ImGui.Rect.Center*"></a>
+              <h4 id="ImGui_Rect_Center" data-uid="ImGui.Rect.Center">Center</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Point Center { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Empty.md&amp;value=---%0Auid%3A%20ImGui.Rect.Empty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Empty_" data-uid="ImGui.Rect.Empty*"></a>
+              <h4 id="ImGui_Rect_Empty" data-uid="ImGui.Rect.Empty">Empty</h4>
+              <div class="markdown level1 summary"><p>Empty - a static property which provides an Empty rectangle.  X and Y are positive-infinity
+and Width and Height are negative infinity.  This is the only situation where Width or
+Height can be negative.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Empty { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Height.md&amp;value=---%0Auid%3A%20ImGui.Rect.Height%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Height_" data-uid="ImGui.Rect.Height*"></a>
+              <h4 id="ImGui_Rect_Height" data-uid="ImGui.Rect.Height">Height</h4>
+              <div class="markdown level1 summary"><p>Height - The Height component of the Size.  This cannot be set to negative, and will only
+be negative if this is the empty rectangle, in which case it will be negative infinity.
+If this rect is Empty, setting this property is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Height { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_IsBig.md&amp;value=---%0Auid%3A%20ImGui.Rect.IsBig%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_IsBig_" data-uid="ImGui.Rect.IsBig*"></a>
+              <h4 id="ImGui_Rect_IsBig" data-uid="ImGui.Rect.IsBig">IsBig</h4>
+              <div class="markdown level1 summary"><p>IsBig - this returns true if this rect is the Big rectangle.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsBig { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_IsEmpty.md&amp;value=---%0Auid%3A%20ImGui.Rect.IsEmpty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_IsEmpty_" data-uid="ImGui.Rect.IsEmpty*"></a>
+              <h4 id="ImGui_Rect_IsEmpty" data-uid="ImGui.Rect.IsEmpty">IsEmpty</h4>
+              <div class="markdown level1 summary"><p>IsEmpty - this returns true if this rect is the Empty rectangle.
+Note: If width or height are 0 this Rectangle still contains a 0 or 1 dimensional set
+of points, so this method should not be used to check for 0 area.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IsEmpty { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Left.md&amp;value=---%0Auid%3A%20ImGui.Rect.Left%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Left_" data-uid="ImGui.Rect.Left*"></a>
+              <h4 id="ImGui_Rect_Left" data-uid="ImGui.Rect.Left">Left</h4>
+              <div class="markdown level1 summary"><p>Left Property - This is a read-only alias for X
+If this is the empty rectangle, the value will be positive infinity.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Left { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Location.md&amp;value=---%0Auid%3A%20ImGui.Rect.Location%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Location_" data-uid="ImGui.Rect.Location*"></a>
+              <h4 id="ImGui_Rect_Location" data-uid="ImGui.Rect.Location">Location</h4>
+              <div class="markdown level1 summary"><p>Location - The Point representing the origin of the Rectangle</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Point Location { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Right.md&amp;value=---%0Auid%3A%20ImGui.Rect.Right%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Right_" data-uid="ImGui.Rect.Right*"></a>
+              <h4 id="ImGui_Rect_Right" data-uid="ImGui.Rect.Right">Right</h4>
+              <div class="markdown level1 summary"><p>Right Property - This is a read-only alias for X + Width
+If this is the empty rectangle, the value will be negative infinity.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Right { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Size.md&amp;value=---%0Auid%3A%20ImGui.Rect.Size%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Size_" data-uid="ImGui.Rect.Size*"></a>
+              <h4 id="ImGui_Rect_Size" data-uid="ImGui.Rect.Size">Size</h4>
+              <div class="markdown level1 summary"><p>Size - The Size representing the area of the Rectangle</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Size Size { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Size.html">Size</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Top.md&amp;value=---%0Auid%3A%20ImGui.Rect.Top%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Top_" data-uid="ImGui.Rect.Top*"></a>
+              <h4 id="ImGui_Rect_Top" data-uid="ImGui.Rect.Top">Top</h4>
+              <div class="markdown level1 summary"><p>Top Property - This is a read-only alias for Y
+If this is the empty rectangle, the value will be positive infinity.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Top { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_TopLeft.md&amp;value=---%0Auid%3A%20ImGui.Rect.TopLeft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_TopLeft_" data-uid="ImGui.Rect.TopLeft*"></a>
+              <h4 id="ImGui_Rect_TopLeft" data-uid="ImGui.Rect.TopLeft">TopLeft</h4>
+              <div class="markdown level1 summary"><p>TopLeft Property - This is a read-only alias for the Point which is at X, Y
+If this is the empty rectangle, the value will be positive infinity, positive infinity.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Point TopLeft { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_TopRight.md&amp;value=---%0Auid%3A%20ImGui.Rect.TopRight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_TopRight_" data-uid="ImGui.Rect.TopRight*"></a>
+              <h4 id="ImGui_Rect_TopRight" data-uid="ImGui.Rect.TopRight">TopRight</h4>
+              <div class="markdown level1 summary"><p>TopRight Property - This is a read-only alias for the Point which is at X + Width, Y
+If this is the empty rectangle, the value will be negative infinity, positive infinity.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public Point TopRight { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Width.md&amp;value=---%0Auid%3A%20ImGui.Rect.Width%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Width_" data-uid="ImGui.Rect.Width*"></a>
+              <h4 id="ImGui_Rect_Width" data-uid="ImGui.Rect.Width">Width</h4>
+              <div class="markdown level1 summary"><p>Width - The Width component of the Size.  This cannot be set to negative, and will only
+be negative if this is the empty rectangle, in which case it will be negative infinity.
+If this rect is Empty, setting this property is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Width { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_X.md&amp;value=---%0Auid%3A%20ImGui.Rect.X%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_X_" data-uid="ImGui.Rect.X*"></a>
+              <h4 id="ImGui_Rect_X" data-uid="ImGui.Rect.X">X</h4>
+              <div class="markdown level1 summary"><p>X - The X coordinate of the Location.
+If this is the empty rectangle, the value will be positive infinity.
+If this rect is Empty, setting this property is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double X { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Y.md&amp;value=---%0Auid%3A%20ImGui.Rect.Y%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Y_" data-uid="ImGui.Rect.Y*"></a>
+              <h4 id="ImGui_Rect_Y" data-uid="ImGui.Rect.Y">Y</h4>
+              <div class="markdown level1 summary"><p>Y - The Y coordinate of the Location
+If this is the empty rectangle, the value will be positive infinity.
+If this rect is Empty, setting this property is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public double Y { get; set; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Zero.md&amp;value=---%0Auid%3A%20ImGui.Rect.Zero%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Zero_" data-uid="ImGui.Rect.Zero*"></a>
+              <h4 id="ImGui_Rect_Zero" data-uid="ImGui.Rect.Zero">Zero</h4>
+              <div class="markdown level1 summary"></div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Zero { get; }</code></pre>
+              </div>
+              <h5 class="propertyValue">Property Value</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="methods">Methods
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Contains_ImGui_Point_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Contains(ImGui.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Contains_" data-uid="ImGui.Rect.Contains*"></a>
+              <h4 id="ImGui_Rect_Contains_ImGui_Point_" data-uid="ImGui.Rect.Contains(ImGui.Point)">Contains(Point)</h4>
+              <div class="markdown level1 summary"><p>Contains - Returns true if the Point is within the rectangle, inclusive of the edges.
+Returns false otherwise.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Contains(Point point)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td><span class="parametername">point</span></td>
+                    <td><p>The point which is being tested </p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>Returns true if the Point is within the rectangle.
+Returns false otherwise</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Contains_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Contains(ImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Contains_" data-uid="ImGui.Rect.Contains*"></a>
+              <h4 id="ImGui_Rect_Contains_ImGui_Rect_" data-uid="ImGui.Rect.Contains(ImGui.Rect)">Contains(Rect)</h4>
+              <div class="markdown level1 summary"><p>Contains - Returns true if the Rect non-Empty and is entirely contained within the
+rectangle, inclusive of the edges.
+Returns false otherwise</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Contains(Rect rect)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Contains_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Contains(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Contains_" data-uid="ImGui.Rect.Contains*"></a>
+              <h4 id="ImGui_Rect_Contains_System_Double_System_Double_" data-uid="ImGui.Rect.Contains(System.Double,System.Double)">Contains(Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Contains - Returns true if the Point represented by x,y is within the rectangle inclusive of the edges.
+Returns false otherwise.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Contains(double x, double y)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">x</span></td>
+                    <td><p>X coordinate of the point which is being tested </p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">y</span></td>
+                    <td><p>Y coordinate of the point which is being tested </p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>Returns true if the Point represented by x,y is within the rectangle.
+Returns false otherwise.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Equals_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Equals(ImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Equals_" data-uid="ImGui.Rect.Equals*"></a>
+              <h4 id="ImGui_Rect_Equals_ImGui_Rect_" data-uid="ImGui.Rect.Equals(ImGui.Rect)">Equals(Rect)</h4>
+              <div class="markdown level1 summary"><p>Equals - compares this Rect with the passed in object.  In this equality
+double.NaN is equal to itself, unlike in numeric equality.
+Note that double values can acquire error when operated upon, such that
+an exact comparison between two values which
+are logically equal may fail.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool Equals(Rect value)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">value</span></td>
+                    <td><p>The Rect to compare to &quot;this&quot;</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>bool - true if &quot;value&quot; is equal to &quot;this&quot;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Equals_ImGui_Rect_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Equals(ImGui.Rect%2CImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Equals_" data-uid="ImGui.Rect.Equals*"></a>
+              <h4 id="ImGui_Rect_Equals_ImGui_Rect_ImGui_Rect_" data-uid="ImGui.Rect.Equals(ImGui.Rect,ImGui.Rect)">Equals(Rect, Rect)</h4>
+              <div class="markdown level1 summary"><p>Compares two Rect instances for object equality.  In this equality
+double.NaN is equal to itself, unlike in numeric equality.
+Note that double values can acquire error when operated upon, such that
+an exact comparison between two values which
+are logically equal may fail.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool Equals(Rect rect1, Rect rect2)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect1</span></td>
+                    <td><p>The first Rect to compare</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect2</span></td>
+                    <td><p>The second Rect to compare</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>bool - true if the two Rect instances are exactly equal, false otherwise</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Equals_System_Object_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Equals_" data-uid="ImGui.Rect.Equals*"></a>
+              <h4 id="ImGui_Rect_Equals_System_Object_" data-uid="ImGui.Rect.Equals(System.Object)">Equals(Object)</h4>
+              <div class="markdown level1 summary"><p>Equals - compares this Rect with the passed in object.  In this equality
+double.NaN is equal to itself, unlike in numeric equality.
+Note that double values can acquire error when operated upon, such that
+an exact comparison between two values which
+are logically equal may fail.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override bool Equals(object o)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Object</span></td>
+                    <td><span class="parametername">o</span></td>
+                    <td><p>The object to compare to &quot;this&quot;</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>bool - true if the object is an instance of Rect and if it&#39;s equal to &quot;this&quot;.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">System.ValueType.Equals(System.Object)</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_GetHashCode.md&amp;value=---%0Auid%3A%20ImGui.Rect.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_GetHashCode_" data-uid="ImGui.Rect.GetHashCode*"></a>
+              <h4 id="ImGui_Rect_GetHashCode" data-uid="ImGui.Rect.GetHashCode">GetHashCode()</h4>
+              <div class="markdown level1 summary"><p>Returns the HashCode for this Rect</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Int32</span></td>
+                    <td><p>int - the HashCode for this Rect</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">System.ValueType.GetHashCode()</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Inflate_ImGui_Rect_ImGui_Size_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Inflate(ImGui.Rect%2CImGui.Size)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Inflate_" data-uid="ImGui.Rect.Inflate*"></a>
+              <h4 id="ImGui_Rect_Inflate_ImGui_Rect_ImGui_Size_" data-uid="ImGui.Rect.Inflate(ImGui.Rect,ImGui.Size)">Inflate(Rect, Size)</h4>
+              <div class="markdown level1 summary"><p>Inflate - return the result of inflating rect by the size provided, in all directions
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Inflate(Rect rect, Size size)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Size.html">Size</a></td>
+                    <td><span class="parametername">size</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Inflate_ImGui_Rect_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Inflate(ImGui.Rect%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Inflate_" data-uid="ImGui.Rect.Inflate*"></a>
+              <h4 id="ImGui_Rect_Inflate_ImGui_Rect_System_Double_System_Double_" data-uid="ImGui.Rect.Inflate(ImGui.Rect,System.Double,System.Double)">Inflate(Rect, Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Inflate - return the result of inflating rect by the size provided, in all directions
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Inflate(Rect rect, double width, double height)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">width</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">height</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Inflate_ImGui_Rect_System_Double_System_Double_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Inflate(ImGui.Rect%2CSystem.Double%2CSystem.Double%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Inflate_" data-uid="ImGui.Rect.Inflate*"></a>
+              <h4 id="ImGui_Rect_Inflate_ImGui_Rect_System_Double_System_Double_System_Double_System_Double_" data-uid="ImGui.Rect.Inflate(ImGui.Rect,System.Double,System.Double,System.Double,System.Double)">Inflate(Rect, Double, Double, Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Inflate - return the result of inflating rect by the size provided, in all four directions
+If any paramer is negative, this method is illegal.
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Inflate(Rect rect, double top, double right, double bottom, double left)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">top</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">right</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">bottom</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">left</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Inflate_ImGui_Size_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Inflate(ImGui.Size)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Inflate_" data-uid="ImGui.Rect.Inflate*"></a>
+              <h4 id="ImGui_Rect_Inflate_ImGui_Size_" data-uid="ImGui.Rect.Inflate(ImGui.Size)">Inflate(Size)</h4>
+              <div class="markdown level1 summary"><p>Inflate - inflate the bounds by the size provided, in all directions
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Inflate(Size size)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Size.html">Size</a></td>
+                    <td><span class="parametername">size</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Inflate_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Inflate(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Inflate_" data-uid="ImGui.Rect.Inflate*"></a>
+              <h4 id="ImGui_Rect_Inflate_System_Double_System_Double_" data-uid="ImGui.Rect.Inflate(System.Double,System.Double)">Inflate(Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Inflate - inflate the bounds by the size provided, in all directions.
+If -width is &gt; Width / 2 or -height is &gt; Height / 2, this Rect becomes Empty
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Inflate(double width, double height)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">width</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">height</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Inflate_System_Double_System_Double_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Inflate(System.Double%2CSystem.Double%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Inflate_" data-uid="ImGui.Rect.Inflate*"></a>
+              <h4 id="ImGui_Rect_Inflate_System_Double_System_Double_System_Double_System_Double_" data-uid="ImGui.Rect.Inflate(System.Double,System.Double,System.Double,System.Double)">Inflate(Double, Double, Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Inflate - inflate the bounds by the value provided, in all four directions.
+If any paramer is negative, this method is illegal.
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Inflate(double top, double right, double bottom, double left)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">top</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">right</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">bottom</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">left</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Intersect_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Intersect(ImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Intersect_" data-uid="ImGui.Rect.Intersect*"></a>
+              <h4 id="ImGui_Rect_Intersect_ImGui_Rect_" data-uid="ImGui.Rect.Intersect(ImGui.Rect)">Intersect(Rect)</h4>
+              <div class="markdown level1 summary"><p>Intersect - Update this rectangle to be the intersection of this and rect
+If either this or rect are Empty, the result is Empty as well.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Intersect(Rect rect)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td><p>The rect to intersect with this </p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Intersect_ImGui_Rect_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Intersect(ImGui.Rect%2CImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Intersect_" data-uid="ImGui.Rect.Intersect*"></a>
+              <h4 id="ImGui_Rect_Intersect_ImGui_Rect_ImGui_Rect_" data-uid="ImGui.Rect.Intersect(ImGui.Rect,ImGui.Rect)">Intersect(Rect, Rect)</h4>
+              <div class="markdown level1 summary"><p>Intersect - Return the result of the intersection of rect1 and rect2.
+If either this or rect are Empty, the result is Empty as well.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Intersect(Rect rect1, Rect rect2)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect1</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect2</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_IntersectsWith_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.IntersectsWith(ImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_IntersectsWith_" data-uid="ImGui.Rect.IntersectsWith*"></a>
+              <h4 id="ImGui_Rect_IntersectsWith_ImGui_Rect_" data-uid="ImGui.Rect.IntersectsWith(ImGui.Rect)">IntersectsWith(Rect)</h4>
+              <div class="markdown level1 summary"><p>IntersectsWith - Returns true if the Rect intersects with this rectangle
+Returns false otherwise.
+Note that if one edge is coincident, this is considered an intersection.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public bool IntersectsWith(Rect rect)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td><p>Rect </p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>Returns true if the Rect intersects with this rectangle
+Returns false otherwise.
+or Height</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Offset_ImGui_Rect_ImGui_Vector_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Offset(ImGui.Rect%2CImGui.Vector)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Offset_" data-uid="ImGui.Rect.Offset*"></a>
+              <h4 id="ImGui_Rect_Offset_ImGui_Rect_ImGui_Vector_" data-uid="ImGui.Rect.Offset(ImGui.Rect,ImGui.Vector)">Offset(Rect, Vector)</h4>
+              <div class="markdown level1 summary"><p>Offset - return the result of offsetting rect by the offset provided
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Offset(Rect rect, Vector offsetVector)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Vector.html">Vector</a></td>
+                    <td><span class="parametername">offsetVector</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Offset_ImGui_Rect_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Offset(ImGui.Rect%2CSystem.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Offset_" data-uid="ImGui.Rect.Offset*"></a>
+              <h4 id="ImGui_Rect_Offset_ImGui_Rect_System_Double_System_Double_" data-uid="ImGui.Rect.Offset(ImGui.Rect,System.Double,System.Double)">Offset(Rect, Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Offset - return the result of offsetting rect by the offset provided
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Offset(Rect rect, double offsetX, double offsetY)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">offsetX</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">offsetY</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Offset_ImGui_Vector_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Offset(ImGui.Vector)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Offset_" data-uid="ImGui.Rect.Offset*"></a>
+              <h4 id="ImGui_Rect_Offset_ImGui_Vector_" data-uid="ImGui.Rect.Offset(ImGui.Vector)">Offset(Vector)</h4>
+              <div class="markdown level1 summary"><p>Offset - translate the Location by the offset provided.
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Offset(Vector offsetVector)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Vector.html">Vector</a></td>
+                    <td><span class="parametername">offsetVector</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Offset_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Offset(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Offset_" data-uid="ImGui.Rect.Offset*"></a>
+              <h4 id="ImGui_Rect_Offset_System_Double_System_Double_" data-uid="ImGui.Rect.Offset(System.Double,System.Double)">Offset(Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Offset - translate the Location by the offset provided
+If this is Empty, this method is illegal.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Offset(double offsetX, double offsetY)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">offsetX</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">offsetY</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Parse_System_String_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Parse(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Parse_" data-uid="ImGui.Rect.Parse*"></a>
+              <h4 id="ImGui_Rect_Parse_System_String_" data-uid="ImGui.Rect.Parse(System.String)">Parse(String)</h4>
+              <div class="markdown level1 summary"><p>Parse - returns an instance converted from the provided string using
+the culture &quot;en-US&quot;</p>
+<param name="source"> string with Rect data 
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Parse(string source)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">source</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Scale_System_Double_System_Double_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Scale(System.Double%2CSystem.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Scale_" data-uid="ImGui.Rect.Scale*"></a>
+              <h4 id="ImGui_Rect_Scale_System_Double_System_Double_" data-uid="ImGui.Rect.Scale(System.Double,System.Double)">Scale(Double, Double)</h4>
+              <div class="markdown level1 summary"><p>Scale the rectangle in the X and Y directions</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Scale(double scaleX, double scaleY)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">scaleX</span></td>
+                    <td><p>The scale in X </p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.Double</span></td>
+                    <td><span class="parametername">scaleY</span></td>
+                    <td><p>The scale in Y </p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_ToString.md&amp;value=---%0Auid%3A%20ImGui.Rect.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_ToString_" data-uid="ImGui.Rect.ToString*"></a>
+              <h4 id="ImGui_Rect_ToString" data-uid="ImGui.Rect.ToString">ToString()</h4>
+              <div class="markdown level1 summary"><p>Creates a string representation of this object based on the current culture.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+              </div>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>A string representation of this object.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="overrides">Overrides</h5>
+              <div><span class="xref">System.ValueType.ToString()</span></div>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_ToString_System_IFormatProvider_.md&amp;value=---%0Auid%3A%20ImGui.Rect.ToString(System.IFormatProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_ToString_" data-uid="ImGui.Rect.ToString*"></a>
+              <h4 id="ImGui_Rect_ToString_System_IFormatProvider_" data-uid="ImGui.Rect.ToString(System.IFormatProvider)">ToString(IFormatProvider)</h4>
+              <div class="markdown level1 summary"><p>Creates a string representation of this object based on the IFormatProvider
+passed in.  If the provider is null, the CurrentCulture is used.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public string ToString(IFormatProvider provider)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.IFormatProvider</span></td>
+                    <td><span class="parametername">provider</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>A string representation of this object.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Union_ImGui_Point_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Union(ImGui.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Union_" data-uid="ImGui.Rect.Union*"></a>
+              <h4 id="ImGui_Rect_Union_ImGui_Point_" data-uid="ImGui.Rect.Union(ImGui.Point)">Union(Point)</h4>
+              <div class="markdown level1 summary"><p>Union - Update this rectangle to be the union of this and point.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Union(Point point)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td><span class="parametername">point</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Union_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Union(ImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Union_" data-uid="ImGui.Rect.Union*"></a>
+              <h4 id="ImGui_Rect_Union_ImGui_Rect_" data-uid="ImGui.Rect.Union(ImGui.Rect)">Union(Rect)</h4>
+              <div class="markdown level1 summary"><p>Union - Update this rectangle to be the union of this and rect.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public void Union(Rect rect)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Union_ImGui_Rect_ImGui_Point_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Union(ImGui.Rect%2CImGui.Point)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Union_" data-uid="ImGui.Rect.Union*"></a>
+              <h4 id="ImGui_Rect_Union_ImGui_Rect_ImGui_Point_" data-uid="ImGui.Rect.Union(ImGui.Rect,ImGui.Point)">Union(Rect, Point)</h4>
+              <div class="markdown level1 summary"><p>Union - Return the result of the union of rect and point.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Union(Rect rect, Point point)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Point.html">Point</a></td>
+                    <td><span class="parametername">point</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_Union_ImGui_Rect_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.Union(ImGui.Rect%2CImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_Union_" data-uid="ImGui.Rect.Union*"></a>
+              <h4 id="ImGui_Rect_Union_ImGui_Rect_ImGui_Rect_" data-uid="ImGui.Rect.Union(ImGui.Rect,ImGui.Rect)">Union(Rect, Rect)</h4>
+              <div class="markdown level1 summary"><p>Union - Return the result of the union of rect1 and rect2.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static Rect Union(Rect rect1, Rect rect2)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect1</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect2</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="operators">Operators
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_op_Equality_ImGui_Rect_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.op_Equality(ImGui.Rect%2CImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_op_Equality_" data-uid="ImGui.Rect.op_Equality*"></a>
+              <h4 id="ImGui_Rect_op_Equality_ImGui_Rect_ImGui_Rect_" data-uid="ImGui.Rect.op_Equality(ImGui.Rect,ImGui.Rect)">Equality(Rect, Rect)</h4>
+              <div class="markdown level1 summary"><p>Compares two Rect instances for exact equality.
+Note that double values can acquire error when operated upon, such that
+an exact comparison between two values which are logically equal may fail.
+Furthermore, using this equality operator, double.NaN is not equal to itself.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool operator ==(Rect rect1, Rect rect2)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect1</span></td>
+                    <td><p>The first Rect to compare</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect2</span></td>
+                    <td><p>The second Rect to compare</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>bool - true if the two Rect instances are exactly equal, false otherwise</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_op_Inequality_ImGui_Rect_ImGui_Rect_.md&amp;value=---%0Auid%3A%20ImGui.Rect.op_Inequality(ImGui.Rect%2CImGui.Rect)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_op_Inequality_" data-uid="ImGui.Rect.op_Inequality*"></a>
+              <h4 id="ImGui_Rect_op_Inequality_ImGui_Rect_ImGui_Rect_" data-uid="ImGui.Rect.op_Inequality(ImGui.Rect,ImGui.Rect)">Inequality(Rect, Rect)</h4>
+              <div class="markdown level1 summary"><p>Compares two Rect instances for exact inequality.
+Note that double values can acquire error when operated upon, such that
+an exact comparison between two values which are logically equal may fail.
+Furthermore, using this equality operator, double.NaN is not equal to itself.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">public static bool operator !=(Rect rect1, Rect rect2)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect1</span></td>
+                    <td><p>The first Rect to compare</p>
+</td>
+                  </tr>
+                  <tr>
+                    <td><a class="xref" href="ImGui.Rect.html">Rect</a></td>
+                    <td><span class="parametername">rect2</span></td>
+                    <td><p>The second Rect to compare</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.Boolean</span></td>
+                    <td><p>bool - true if the two Rect instances are exactly unequal, false otherwise</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h3 id="eii">Explicit Interface Implementations
+              </h3>
+              <span class="small pull-right mobile-hide">
+                <span class="divider">|</span>
+                <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect_System_IFormattable_ToString_System_String_System_IFormatProvider_.md&amp;value=---%0Auid%3A%20ImGui.Rect.System%23IFormattable%23ToString(System.String%2CSystem.IFormatProvider)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              
+              <a id="ImGui_Rect_System_IFormattable_ToString_" data-uid="ImGui.Rect.System#IFormattable#ToString*"></a>
+              <h4 id="ImGui_Rect_System_IFormattable_ToString_System_String_System_IFormatProvider_" data-uid="ImGui.Rect.System#IFormattable#ToString(System.String,System.IFormatProvider)">IFormattable.ToString(String, IFormatProvider)</h4>
+              <div class="markdown level1 summary"><p>Creates a string representation of this object based on the format string
+and IFormatProvider passed in.
+If the provider is null, the CurrentCulture is used.
+See the documentation for IFormattable for more information.</p>
+</div>
+              <div class="markdown level1 conceptual"></div>
+              <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                <pre><code class="lang-csharp hljs">string IFormattable.ToString(string format, IFormatProvider provider)</code></pre>
+              </div>
+              <h5 class="parameters">Parameters</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><span class="parametername">format</span></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td><span class="xref">System.IFormatProvider</span></td>
+                    <td><span class="parametername">provider</span></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="returns">Returns</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                <thead>
+                  <tr>
+                    <th>Type</th>
+                    <th>Description</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="xref">System.String</span></td>
+                    <td><p>A string representation of this object.</p>
+</td>
+                  </tr>
+                </tbody>
+              </table>
+              <h5 class="implements">Implements</h5>
+                  <div><span class="xref">System.IFormattable.ToString(System.String, System.IFormatProvider)</span></div>
+            </article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/zwcloud/ImGui-Doc/new/master/apispec/new?filename=ImGui_Rect.md&amp;value=---%0Auid%3A%20ImGui.Rect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            <span>Copyright © 2016 zwcloud<br>Generated by <strong>DocFX</strong></span>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,1935 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: api/index.md
+  name: manual-positioning controls
+  href: api/index.html
+- uid: ImGui
+  name: ImGui
+  href: api/ImGui.html
+  commentId: N:ImGui
+  fullName: ImGui
+  nameWithType: ImGui
+- uid: ImGui.Application
+  name: Application
+  href: api/ImGui.Application.html
+  commentId: T:ImGui.Application
+  fullName: ImGui.Application
+  nameWithType: Application
+- uid: ImGui.Application.Quit
+  name: Quit()
+  href: api/ImGui.Application.html#ImGui_Application_Quit
+  commentId: M:ImGui.Application.Quit
+  fullName: ImGui.Application.Quit()
+  nameWithType: Application.Quit()
+- uid: ImGui.Application.Quit*
+  name: Quit
+  href: api/ImGui.Application.html#ImGui_Application_Quit_
+  commentId: Overload:ImGui.Application.Quit
+  fullName: ImGui.Application.Quit
+  nameWithType: Application.Quit
+- uid: ImGui.Application.Run(ImGui.Form)
+  name: Run(Form)
+  href: api/ImGui.Application.html#ImGui_Application_Run_ImGui_Form_
+  commentId: M:ImGui.Application.Run(ImGui.Form)
+  fullName: ImGui.Application.Run(ImGui.Form)
+  nameWithType: Application.Run(Form)
+- uid: ImGui.Application.Run*
+  name: Run
+  href: api/ImGui.Application.html#ImGui_Application_Run_
+  commentId: Overload:ImGui.Application.Run
+  fullName: ImGui.Application.Run
+  nameWithType: Application.Run
+- uid: ImGui.Form
+  name: Form
+  href: api/ImGui.Form.html
+  commentId: T:ImGui.Form
+  fullName: ImGui.Form
+  nameWithType: Form
+- uid: ImGui.Form.#ctor(ImGui.Rect)
+  name: Form(Rect)
+  href: api/ImGui.Form.html#ImGui_Form__ctor_ImGui_Rect_
+  commentId: M:ImGui.Form.#ctor(ImGui.Rect)
+  fullName: ImGui.Form.Form(ImGui.Rect)
+  nameWithType: Form.Form(Rect)
+- uid: ImGui.Form.#ctor*
+  name: Form
+  href: api/ImGui.Form.html#ImGui_Form__ctor_
+  commentId: Overload:ImGui.Form.#ctor
+  fullName: ImGui.Form.Form
+  nameWithType: Form.Form
+- uid: ImGui.Form.current
+  name: current
+  href: api/ImGui.Form.html#ImGui_Form_current
+  commentId: F:ImGui.Form.current
+  fullName: ImGui.Form.current
+  nameWithType: Form.current
+- uid: ImGui.Form.OnGUI
+  name: OnGUI()
+  href: api/ImGui.Form.html#ImGui_Form_OnGUI
+  commentId: M:ImGui.Form.OnGUI
+  fullName: ImGui.Form.OnGUI()
+  nameWithType: Form.OnGUI()
+- uid: ImGui.Form.OnGUI*
+  name: OnGUI
+  href: api/ImGui.Form.html#ImGui_Form_OnGUI_
+  commentId: Overload:ImGui.Form.OnGUI
+  fullName: ImGui.Form.OnGUI
+  nameWithType: Form.OnGUI
+- uid: ImGui.GUI
+  name: GUI
+  href: api/ImGui.GUI.html
+  commentId: T:ImGui.GUI
+  fullName: ImGui.GUI
+  nameWithType: GUI
+- uid: ImGui.GUI.Active
+  name: Active
+  href: api/ImGui.GUI.html#ImGui_GUI_Active
+  commentId: F:ImGui.GUI.Active
+  fullName: ImGui.GUI.Active
+  nameWithType: GUI.Active
+- uid: ImGui.GUI.Button(ImGui.Rect,System.String,System.String)
+  name: Button(Rect, String, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_Button_ImGui_Rect_System_String_System_String_
+  commentId: M:ImGui.GUI.Button(ImGui.Rect,System.String,System.String)
+  fullName: ImGui.GUI.Button(ImGui.Rect, System.String, System.String)
+  nameWithType: GUI.Button(Rect, String, String)
+- uid: ImGui.GUI.Button*
+  name: Button
+  href: api/ImGui.GUI.html#ImGui_GUI_Button_
+  commentId: Overload:ImGui.GUI.Button
+  fullName: ImGui.GUI.Button
+  nameWithType: GUI.Button
+- uid: ImGui.GUI.Hover
+  name: Hover
+  href: api/ImGui.GUI.html#ImGui_GUI_Hover
+  commentId: F:ImGui.GUI.Hover
+  fullName: ImGui.GUI.Hover
+  nameWithType: GUI.Hover
+- uid: ImGui.GUI.HoverButton(ImGui.Rect,System.String,System.String)
+  name: HoverButton(Rect, String, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_HoverButton_ImGui_Rect_System_String_System_String_
+  commentId: M:ImGui.GUI.HoverButton(ImGui.Rect,System.String,System.String)
+  fullName: ImGui.GUI.HoverButton(ImGui.Rect, System.String, System.String)
+  nameWithType: GUI.HoverButton(Rect, String, String)
+- uid: ImGui.GUI.HoverButton*
+  name: HoverButton
+  href: api/ImGui.GUI.html#ImGui_GUI_HoverButton_
+  commentId: Overload:ImGui.GUI.HoverButton
+  fullName: ImGui.GUI.HoverButton
+  nameWithType: GUI.HoverButton
+- uid: ImGui.GUI.Image(ImGui.Rect,System.String,System.String)
+  name: Image(Rect, String, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_Image_ImGui_Rect_System_String_System_String_
+  commentId: M:ImGui.GUI.Image(ImGui.Rect,System.String,System.String)
+  fullName: ImGui.GUI.Image(ImGui.Rect, System.String, System.String)
+  nameWithType: GUI.Image(Rect, String, String)
+- uid: ImGui.GUI.Image*
+  name: Image
+  href: api/ImGui.GUI.html#ImGui_GUI_Image_
+  commentId: Overload:ImGui.GUI.Image
+  fullName: ImGui.GUI.Image
+  nameWithType: GUI.Image
+- uid: ImGui.GUI.Label(ImGui.Rect,System.String,System.String)
+  name: Label(Rect, String, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_Label_ImGui_Rect_System_String_System_String_
+  commentId: M:ImGui.GUI.Label(ImGui.Rect,System.String,System.String)
+  fullName: ImGui.GUI.Label(ImGui.Rect, System.String, System.String)
+  nameWithType: GUI.Label(Rect, String, String)
+- uid: ImGui.GUI.Label*
+  name: Label
+  href: api/ImGui.GUI.html#ImGui_GUI_Label_
+  commentId: Overload:ImGui.GUI.Label
+  fullName: ImGui.GUI.Label
+  nameWithType: GUI.Label
+- uid: ImGui.GUI.Normal
+  name: Normal
+  href: api/ImGui.GUI.html#ImGui_GUI_Normal
+  commentId: F:ImGui.GUI.Normal
+  fullName: ImGui.GUI.Normal
+  nameWithType: GUI.Normal
+- uid: ImGui.GUI.PolygonButton(ImGui.Rect,System.Collections.Generic.IReadOnlyList{ImGui.Point},ImGui.Rect,System.String,System.String)
+  name: PolygonButton(Rect, IReadOnlyList<Point>, Rect, String, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_PolygonButton_ImGui_Rect_System_Collections_Generic_IReadOnlyList_ImGui_Point__ImGui_Rect_System_String_System_String_
+  commentId: M:ImGui.GUI.PolygonButton(ImGui.Rect,System.Collections.Generic.IReadOnlyList{ImGui.Point},ImGui.Rect,System.String,System.String)
+  name.vb: PolygonButton(Rect, IReadOnlyList(Of Point), Rect, String, String)
+  fullName: ImGui.GUI.PolygonButton(ImGui.Rect, System.Collections.Generic.IReadOnlyList<ImGui.Point>, ImGui.Rect, System.String, System.String)
+  fullName.vb: ImGui.GUI.PolygonButton(ImGui.Rect, System.Collections.Generic.IReadOnlyList(Of ImGui.Point), ImGui.Rect, System.String, System.String)
+  nameWithType: GUI.PolygonButton(Rect, IReadOnlyList<Point>, Rect, String, String)
+  nameWithType.vb: PolygonButton(Rect, IReadOnlyList(Of Point), Rect, String, String)
+- uid: ImGui.GUI.PolygonButton*
+  name: PolygonButton
+  href: api/ImGui.GUI.html#ImGui_GUI_PolygonButton_
+  commentId: Overload:ImGui.GUI.PolygonButton
+  fullName: ImGui.GUI.PolygonButton
+  nameWithType: GUI.PolygonButton
+- uid: ImGui.GUI.Slider(ImGui.Rect,System.Double,System.Double,System.Double,System.String)
+  name: Slider(Rect, Double, Double, Double, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_Slider_ImGui_Rect_System_Double_System_Double_System_Double_System_String_
+  commentId: M:ImGui.GUI.Slider(ImGui.Rect,System.Double,System.Double,System.Double,System.String)
+  fullName: ImGui.GUI.Slider(ImGui.Rect, System.Double, System.Double, System.Double, System.String)
+  nameWithType: GUI.Slider(Rect, Double, Double, Double, String)
+- uid: ImGui.GUI.Slider*
+  name: Slider
+  href: api/ImGui.GUI.html#ImGui_GUI_Slider_
+  commentId: Overload:ImGui.GUI.Slider
+  fullName: ImGui.GUI.Slider
+  nameWithType: GUI.Slider
+- uid: ImGui.GUI.Toggle(ImGui.Rect,System.Boolean,System.String)
+  name: Toggle(Rect, Boolean, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_Toggle_ImGui_Rect_System_Boolean_System_String_
+  commentId: M:ImGui.GUI.Toggle(ImGui.Rect,System.Boolean,System.String)
+  fullName: ImGui.GUI.Toggle(ImGui.Rect, System.Boolean, System.String)
+  nameWithType: GUI.Toggle(Rect, Boolean, String)
+- uid: ImGui.GUI.Toggle*
+  name: Toggle
+  href: api/ImGui.GUI.html#ImGui_GUI_Toggle_
+  commentId: Overload:ImGui.GUI.Toggle
+  fullName: ImGui.GUI.Toggle
+  nameWithType: GUI.Toggle
+- uid: ImGui.GUI.ToggleButton(ImGui.Rect,System.String,System.Boolean,System.String)
+  name: ToggleButton(Rect, String, Boolean, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_ToggleButton_ImGui_Rect_System_String_System_Boolean_System_String_
+  commentId: M:ImGui.GUI.ToggleButton(ImGui.Rect,System.String,System.Boolean,System.String)
+  fullName: ImGui.GUI.ToggleButton(ImGui.Rect, System.String, System.Boolean, System.String)
+  nameWithType: GUI.ToggleButton(Rect, String, Boolean, String)
+- uid: ImGui.GUI.ToggleButton*
+  name: ToggleButton
+  href: api/ImGui.GUI.html#ImGui_GUI_ToggleButton_
+  commentId: Overload:ImGui.GUI.ToggleButton
+  fullName: ImGui.GUI.ToggleButton
+  nameWithType: GUI.ToggleButton
+- uid: ImGui.GUI.VSlider(ImGui.Rect,System.Double,System.Double,System.Double,System.String)
+  name: VSlider(Rect, Double, Double, Double, String)
+  href: api/ImGui.GUI.html#ImGui_GUI_VSlider_ImGui_Rect_System_Double_System_Double_System_Double_System_String_
+  commentId: M:ImGui.GUI.VSlider(ImGui.Rect,System.Double,System.Double,System.Double,System.String)
+  fullName: ImGui.GUI.VSlider(ImGui.Rect, System.Double, System.Double, System.Double, System.String)
+  nameWithType: GUI.VSlider(Rect, Double, Double, Double, String)
+- uid: ImGui.GUI.VSlider*
+  name: VSlider
+  href: api/ImGui.GUI.html#ImGui_GUI_VSlider_
+  commentId: Overload:ImGui.GUI.VSlider
+  fullName: ImGui.GUI.VSlider
+  nameWithType: GUI.VSlider
+- uid: ImGui.GUILayout
+  name: GUILayout
+  href: api/ImGui.GUILayout.html
+  commentId: T:ImGui.GUILayout
+  fullName: ImGui.GUILayout
+  nameWithType: GUILayout
+- uid: ImGui.GUILayout.BeginHorizontal(ImGui.LayoutOption[])
+  name: BeginHorizontal(LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_BeginHorizontal_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.BeginHorizontal(ImGui.LayoutOption[])
+  name.vb: BeginHorizontal(LayoutOption())
+  fullName: ImGui.GUILayout.BeginHorizontal(ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.BeginHorizontal(ImGui.LayoutOption())
+  nameWithType: GUILayout.BeginHorizontal(LayoutOption[])
+  nameWithType.vb: BeginHorizontal(LayoutOption())
+- uid: ImGui.GUILayout.BeginHorizontal*
+  name: BeginHorizontal
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_BeginHorizontal_
+  commentId: Overload:ImGui.GUILayout.BeginHorizontal
+  fullName: ImGui.GUILayout.BeginHorizontal
+  nameWithType: GUILayout.BeginHorizontal
+- uid: ImGui.GUILayout.BeginVertical(ImGui.LayoutOption[])
+  name: BeginVertical(LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_BeginVertical_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.BeginVertical(ImGui.LayoutOption[])
+  name.vb: BeginVertical(LayoutOption())
+  fullName: ImGui.GUILayout.BeginVertical(ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.BeginVertical(ImGui.LayoutOption())
+  nameWithType: GUILayout.BeginVertical(LayoutOption[])
+  nameWithType.vb: BeginVertical(LayoutOption())
+- uid: ImGui.GUILayout.BeginVertical*
+  name: BeginVertical
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_BeginVertical_
+  commentId: Overload:ImGui.GUILayout.BeginVertical
+  fullName: ImGui.GUILayout.BeginVertical
+  nameWithType: GUILayout.BeginVertical
+- uid: ImGui.GUILayout.Button(System.String,System.String,ImGui.LayoutOption[])
+  name: Button(String, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Button_System_String_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.Button(System.String,System.String,ImGui.LayoutOption[])
+  name.vb: Button(String, String, LayoutOption())
+  fullName: ImGui.GUILayout.Button(System.String, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.Button(System.String, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.Button(String, String, LayoutOption[])
+  nameWithType.vb: Button(String, String, LayoutOption())
+- uid: ImGui.GUILayout.Button*
+  name: Button
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Button_
+  commentId: Overload:ImGui.GUILayout.Button
+  fullName: ImGui.GUILayout.Button
+  nameWithType: GUILayout.Button
+- uid: ImGui.GUILayout.EndHorizontal
+  name: EndHorizontal()
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_EndHorizontal
+  commentId: M:ImGui.GUILayout.EndHorizontal
+  fullName: ImGui.GUILayout.EndHorizontal()
+  nameWithType: GUILayout.EndHorizontal()
+- uid: ImGui.GUILayout.EndHorizontal*
+  name: EndHorizontal
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_EndHorizontal_
+  commentId: Overload:ImGui.GUILayout.EndHorizontal
+  fullName: ImGui.GUILayout.EndHorizontal
+  nameWithType: GUILayout.EndHorizontal
+- uid: ImGui.GUILayout.EndVertical
+  name: EndVertical()
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_EndVertical
+  commentId: M:ImGui.GUILayout.EndVertical
+  fullName: ImGui.GUILayout.EndVertical()
+  nameWithType: GUILayout.EndVertical()
+- uid: ImGui.GUILayout.EndVertical*
+  name: EndVertical
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_EndVertical_
+  commentId: Overload:ImGui.GUILayout.EndVertical
+  fullName: ImGui.GUILayout.EndVertical
+  nameWithType: GUILayout.EndVertical
+- uid: ImGui.GUILayout.ExpandHeight(System.Boolean)
+  name: ExpandHeight(Boolean)
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_System_Boolean_
+  commentId: M:ImGui.GUILayout.ExpandHeight(System.Boolean)
+  fullName: ImGui.GUILayout.ExpandHeight(System.Boolean)
+  nameWithType: GUILayout.ExpandHeight(Boolean)
+- uid: ImGui.GUILayout.ExpandHeight*
+  name: ExpandHeight
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_ExpandHeight_
+  commentId: Overload:ImGui.GUILayout.ExpandHeight
+  fullName: ImGui.GUILayout.ExpandHeight
+  nameWithType: GUILayout.ExpandHeight
+- uid: ImGui.GUILayout.ExpandWidth(System.Boolean)
+  name: ExpandWidth(Boolean)
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_System_Boolean_
+  commentId: M:ImGui.GUILayout.ExpandWidth(System.Boolean)
+  fullName: ImGui.GUILayout.ExpandWidth(System.Boolean)
+  nameWithType: GUILayout.ExpandWidth(Boolean)
+- uid: ImGui.GUILayout.ExpandWidth*
+  name: ExpandWidth
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_ExpandWidth_
+  commentId: Overload:ImGui.GUILayout.ExpandWidth
+  fullName: ImGui.GUILayout.ExpandWidth
+  nameWithType: GUILayout.ExpandWidth
+- uid: ImGui.GUILayout.FlexibleSpace
+  name: FlexibleSpace()
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_FlexibleSpace
+  commentId: M:ImGui.GUILayout.FlexibleSpace
+  fullName: ImGui.GUILayout.FlexibleSpace()
+  nameWithType: GUILayout.FlexibleSpace()
+- uid: ImGui.GUILayout.FlexibleSpace*
+  name: FlexibleSpace
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_FlexibleSpace_
+  commentId: Overload:ImGui.GUILayout.FlexibleSpace
+  fullName: ImGui.GUILayout.FlexibleSpace
+  nameWithType: GUILayout.FlexibleSpace
+- uid: ImGui.GUILayout.Height(System.Double)
+  name: Height(Double)
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Height_System_Double_
+  commentId: M:ImGui.GUILayout.Height(System.Double)
+  fullName: ImGui.GUILayout.Height(System.Double)
+  nameWithType: GUILayout.Height(Double)
+- uid: ImGui.GUILayout.Height*
+  name: Height
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Height_
+  commentId: Overload:ImGui.GUILayout.Height
+  fullName: ImGui.GUILayout.Height
+  nameWithType: GUILayout.Height
+- uid: ImGui.GUILayout.HoverButton(System.String,System.String,ImGui.LayoutOption[])
+  name: HoverButton(String, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_HoverButton_System_String_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.HoverButton(System.String,System.String,ImGui.LayoutOption[])
+  name.vb: HoverButton(String, String, LayoutOption())
+  fullName: ImGui.GUILayout.HoverButton(System.String, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.HoverButton(System.String, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.HoverButton(String, String, LayoutOption[])
+  nameWithType.vb: HoverButton(String, String, LayoutOption())
+- uid: ImGui.GUILayout.HoverButton*
+  name: HoverButton
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_HoverButton_
+  commentId: Overload:ImGui.GUILayout.HoverButton
+  fullName: ImGui.GUILayout.HoverButton
+  nameWithType: GUILayout.HoverButton
+- uid: ImGui.GUILayout.Image(System.String,System.String,ImGui.LayoutOption[])
+  name: Image(String, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Image_System_String_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.Image(System.String,System.String,ImGui.LayoutOption[])
+  name.vb: Image(String, String, LayoutOption())
+  fullName: ImGui.GUILayout.Image(System.String, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.Image(System.String, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.Image(String, String, LayoutOption[])
+  nameWithType.vb: Image(String, String, LayoutOption())
+- uid: ImGui.GUILayout.Image*
+  name: Image
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Image_
+  commentId: Overload:ImGui.GUILayout.Image
+  fullName: ImGui.GUILayout.Image
+  nameWithType: GUILayout.Image
+- uid: ImGui.GUILayout.Label(System.String,System.String,ImGui.LayoutOption[])
+  name: Label(String, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Label_System_String_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.Label(System.String,System.String,ImGui.LayoutOption[])
+  name.vb: Label(String, String, LayoutOption())
+  fullName: ImGui.GUILayout.Label(System.String, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.Label(System.String, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.Label(String, String, LayoutOption[])
+  nameWithType.vb: Label(String, String, LayoutOption())
+- uid: ImGui.GUILayout.Label*
+  name: Label
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Label_
+  commentId: Overload:ImGui.GUILayout.Label
+  fullName: ImGui.GUILayout.Label
+  nameWithType: GUILayout.Label
+- uid: ImGui.GUILayout.PolygonButton(System.Collections.Generic.IReadOnlyList{ImGui.Point},ImGui.Rect,System.String,System.String,ImGui.LayoutOption[])
+  name: PolygonButton(IReadOnlyList<Point>, Rect, String, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_PolygonButton_System_Collections_Generic_IReadOnlyList_ImGui_Point__ImGui_Rect_System_String_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.PolygonButton(System.Collections.Generic.IReadOnlyList{ImGui.Point},ImGui.Rect,System.String,System.String,ImGui.LayoutOption[])
+  name.vb: PolygonButton(IReadOnlyList(Of Point), Rect, String, String, LayoutOption())
+  fullName: ImGui.GUILayout.PolygonButton(System.Collections.Generic.IReadOnlyList<ImGui.Point>, ImGui.Rect, System.String, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.PolygonButton(System.Collections.Generic.IReadOnlyList(Of ImGui.Point), ImGui.Rect, System.String, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.PolygonButton(IReadOnlyList<Point>, Rect, String, String, LayoutOption[])
+  nameWithType.vb: PolygonButton(IReadOnlyList(Of Point), Rect, String, String, LayoutOption())
+- uid: ImGui.GUILayout.PolygonButton*
+  name: PolygonButton
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_PolygonButton_
+  commentId: Overload:ImGui.GUILayout.PolygonButton
+  fullName: ImGui.GUILayout.PolygonButton
+  nameWithType: GUILayout.PolygonButton
+- uid: ImGui.GUILayout.Slider(ImGui.Size,System.Double,System.Double,System.Double,System.String,ImGui.LayoutOption[])
+  name: Slider(Size, Double, Double, Double, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Slider_ImGui_Size_System_Double_System_Double_System_Double_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.Slider(ImGui.Size,System.Double,System.Double,System.Double,System.String,ImGui.LayoutOption[])
+  name.vb: Slider(Size, Double, Double, Double, String, LayoutOption())
+  fullName: ImGui.GUILayout.Slider(ImGui.Size, System.Double, System.Double, System.Double, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.Slider(ImGui.Size, System.Double, System.Double, System.Double, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.Slider(Size, Double, Double, Double, String, LayoutOption[])
+  nameWithType.vb: Slider(Size, Double, Double, Double, String, LayoutOption())
+- uid: ImGui.GUILayout.Slider*
+  name: Slider
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Slider_
+  commentId: Overload:ImGui.GUILayout.Slider
+  fullName: ImGui.GUILayout.Slider
+  nameWithType: GUILayout.Slider
+- uid: ImGui.GUILayout.Space(System.Double)
+  name: Space(Double)
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Space_System_Double_
+  commentId: M:ImGui.GUILayout.Space(System.Double)
+  fullName: ImGui.GUILayout.Space(System.Double)
+  nameWithType: GUILayout.Space(Double)
+- uid: ImGui.GUILayout.Space*
+  name: Space
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Space_
+  commentId: Overload:ImGui.GUILayout.Space
+  fullName: ImGui.GUILayout.Space
+  nameWithType: GUILayout.Space
+- uid: ImGui.GUILayout.StretchHeight(System.Int32)
+  name: StretchHeight(Int32)
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_System_Int32_
+  commentId: M:ImGui.GUILayout.StretchHeight(System.Int32)
+  fullName: ImGui.GUILayout.StretchHeight(System.Int32)
+  nameWithType: GUILayout.StretchHeight(Int32)
+- uid: ImGui.GUILayout.StretchHeight*
+  name: StretchHeight
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_StretchHeight_
+  commentId: Overload:ImGui.GUILayout.StretchHeight
+  fullName: ImGui.GUILayout.StretchHeight
+  nameWithType: GUILayout.StretchHeight
+- uid: ImGui.GUILayout.StretchWidth(System.Int32)
+  name: StretchWidth(Int32)
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_System_Int32_
+  commentId: M:ImGui.GUILayout.StretchWidth(System.Int32)
+  fullName: ImGui.GUILayout.StretchWidth(System.Int32)
+  nameWithType: GUILayout.StretchWidth(Int32)
+- uid: ImGui.GUILayout.StretchWidth*
+  name: StretchWidth
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_StretchWidth_
+  commentId: Overload:ImGui.GUILayout.StretchWidth
+  fullName: ImGui.GUILayout.StretchWidth
+  nameWithType: GUILayout.StretchWidth
+- uid: ImGui.GUILayout.Toggle(System.Boolean,System.String,ImGui.LayoutOption[])
+  name: Toggle(Boolean, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Toggle_System_Boolean_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.Toggle(System.Boolean,System.String,ImGui.LayoutOption[])
+  name.vb: Toggle(Boolean, String, LayoutOption())
+  fullName: ImGui.GUILayout.Toggle(System.Boolean, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.Toggle(System.Boolean, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.Toggle(Boolean, String, LayoutOption[])
+  nameWithType.vb: Toggle(Boolean, String, LayoutOption())
+- uid: ImGui.GUILayout.Toggle*
+  name: Toggle
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Toggle_
+  commentId: Overload:ImGui.GUILayout.Toggle
+  fullName: ImGui.GUILayout.Toggle
+  nameWithType: GUILayout.Toggle
+- uid: ImGui.GUILayout.ToggleButton(System.String,System.Boolean,System.String,ImGui.LayoutOption[])
+  name: ToggleButton(String, Boolean, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_ToggleButton_System_String_System_Boolean_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.ToggleButton(System.String,System.Boolean,System.String,ImGui.LayoutOption[])
+  name.vb: ToggleButton(String, Boolean, String, LayoutOption())
+  fullName: ImGui.GUILayout.ToggleButton(System.String, System.Boolean, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.ToggleButton(System.String, System.Boolean, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.ToggleButton(String, Boolean, String, LayoutOption[])
+  nameWithType.vb: ToggleButton(String, Boolean, String, LayoutOption())
+- uid: ImGui.GUILayout.ToggleButton*
+  name: ToggleButton
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_ToggleButton_
+  commentId: Overload:ImGui.GUILayout.ToggleButton
+  fullName: ImGui.GUILayout.ToggleButton
+  nameWithType: GUILayout.ToggleButton
+- uid: ImGui.GUILayout.VSlider(ImGui.Size,System.Double,System.Double,System.Double,System.String,ImGui.LayoutOption[])
+  name: VSlider(Size, Double, Double, Double, String, LayoutOption[])
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_VSlider_ImGui_Size_System_Double_System_Double_System_Double_System_String_ImGui_LayoutOption___
+  commentId: M:ImGui.GUILayout.VSlider(ImGui.Size,System.Double,System.Double,System.Double,System.String,ImGui.LayoutOption[])
+  name.vb: VSlider(Size, Double, Double, Double, String, LayoutOption())
+  fullName: ImGui.GUILayout.VSlider(ImGui.Size, System.Double, System.Double, System.Double, System.String, ImGui.LayoutOption[])
+  fullName.vb: ImGui.GUILayout.VSlider(ImGui.Size, System.Double, System.Double, System.Double, System.String, ImGui.LayoutOption())
+  nameWithType: GUILayout.VSlider(Size, Double, Double, Double, String, LayoutOption[])
+  nameWithType.vb: VSlider(Size, Double, Double, Double, String, LayoutOption())
+- uid: ImGui.GUILayout.VSlider*
+  name: VSlider
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_VSlider_
+  commentId: Overload:ImGui.GUILayout.VSlider
+  fullName: ImGui.GUILayout.VSlider
+  nameWithType: GUILayout.VSlider
+- uid: ImGui.GUILayout.Width(System.Double)
+  name: Width(Double)
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Width_System_Double_
+  commentId: M:ImGui.GUILayout.Width(System.Double)
+  fullName: ImGui.GUILayout.Width(System.Double)
+  nameWithType: GUILayout.Width(Double)
+- uid: ImGui.GUILayout.Width*
+  name: Width
+  href: api/ImGui.GUILayout.html#ImGui_GUILayout_Width_
+  commentId: Overload:ImGui.GUILayout.Width
+  fullName: ImGui.GUILayout.Width
+  nameWithType: GUILayout.Width
+- uid: ImGui.LayoutOption
+  name: LayoutOption
+  href: api/ImGui.LayoutOption.html
+  commentId: T:ImGui.LayoutOption
+  fullName: ImGui.LayoutOption
+  nameWithType: LayoutOption
+- uid: ImGui.Point
+  name: Point
+  href: api/ImGui.Point.html
+  commentId: T:ImGui.Point
+  fullName: ImGui.Point
+  nameWithType: Point
+- uid: ImGui.Point.#ctor(System.Double,System.Double)
+  name: Point(Double, Double)
+  href: api/ImGui.Point.html#ImGui_Point__ctor_System_Double_System_Double_
+  commentId: M:ImGui.Point.#ctor(System.Double,System.Double)
+  fullName: ImGui.Point.Point(System.Double, System.Double)
+  nameWithType: Point.Point(Double, Double)
+- uid: ImGui.Point.#ctor*
+  name: Point
+  href: api/ImGui.Point.html#ImGui_Point__ctor_
+  commentId: Overload:ImGui.Point.#ctor
+  fullName: ImGui.Point.Point
+  nameWithType: Point.Point
+- uid: ImGui.Point.Add(ImGui.Point,ImGui.Vector)
+  name: Add(Point, Vector)
+  href: api/ImGui.Point.html#ImGui_Point_Add_ImGui_Point_ImGui_Vector_
+  commentId: M:ImGui.Point.Add(ImGui.Point,ImGui.Vector)
+  fullName: ImGui.Point.Add(ImGui.Point, ImGui.Vector)
+  nameWithType: Point.Add(Point, Vector)
+- uid: ImGui.Point.Add*
+  name: Add
+  href: api/ImGui.Point.html#ImGui_Point_Add_
+  commentId: Overload:ImGui.Point.Add
+  fullName: ImGui.Point.Add
+  nameWithType: Point.Add
+- uid: ImGui.Point.Equals(ImGui.Point)
+  name: Equals(Point)
+  href: api/ImGui.Point.html#ImGui_Point_Equals_ImGui_Point_
+  commentId: M:ImGui.Point.Equals(ImGui.Point)
+  fullName: ImGui.Point.Equals(ImGui.Point)
+  nameWithType: Point.Equals(Point)
+- uid: ImGui.Point.Equals(ImGui.Point,ImGui.Point)
+  name: Equals(Point, Point)
+  href: api/ImGui.Point.html#ImGui_Point_Equals_ImGui_Point_ImGui_Point_
+  commentId: M:ImGui.Point.Equals(ImGui.Point,ImGui.Point)
+  fullName: ImGui.Point.Equals(ImGui.Point, ImGui.Point)
+  nameWithType: Point.Equals(Point, Point)
+- uid: ImGui.Point.Equals(System.Object)
+  name: Equals(Object)
+  href: api/ImGui.Point.html#ImGui_Point_Equals_System_Object_
+  commentId: M:ImGui.Point.Equals(System.Object)
+  fullName: ImGui.Point.Equals(System.Object)
+  nameWithType: Point.Equals(Object)
+- uid: ImGui.Point.Equals*
+  name: Equals
+  href: api/ImGui.Point.html#ImGui_Point_Equals_
+  commentId: Overload:ImGui.Point.Equals
+  fullName: ImGui.Point.Equals
+  nameWithType: Point.Equals
+- uid: ImGui.Point.GetHashCode
+  name: GetHashCode()
+  href: api/ImGui.Point.html#ImGui_Point_GetHashCode
+  commentId: M:ImGui.Point.GetHashCode
+  fullName: ImGui.Point.GetHashCode()
+  nameWithType: Point.GetHashCode()
+- uid: ImGui.Point.GetHashCode*
+  name: GetHashCode
+  href: api/ImGui.Point.html#ImGui_Point_GetHashCode_
+  commentId: Overload:ImGui.Point.GetHashCode
+  fullName: ImGui.Point.GetHashCode
+  nameWithType: Point.GetHashCode
+- uid: ImGui.Point.Invalid
+  name: Invalid
+  href: api/ImGui.Point.html#ImGui_Point_Invalid
+  commentId: F:ImGui.Point.Invalid
+  fullName: ImGui.Point.Invalid
+  nameWithType: Point.Invalid
+- uid: ImGui.Point.Offset(System.Double,System.Double)
+  name: Offset(Double, Double)
+  href: api/ImGui.Point.html#ImGui_Point_Offset_System_Double_System_Double_
+  commentId: M:ImGui.Point.Offset(System.Double,System.Double)
+  fullName: ImGui.Point.Offset(System.Double, System.Double)
+  nameWithType: Point.Offset(Double, Double)
+- uid: ImGui.Point.Offset*
+  name: Offset
+  href: api/ImGui.Point.html#ImGui_Point_Offset_
+  commentId: Overload:ImGui.Point.Offset
+  fullName: ImGui.Point.Offset
+  nameWithType: Point.Offset
+- uid: ImGui.Point.op_Addition(ImGui.Point,ImGui.Vector)
+  name: Addition(Point, Vector)
+  href: api/ImGui.Point.html#ImGui_Point_op_Addition_ImGui_Point_ImGui_Vector_
+  commentId: M:ImGui.Point.op_Addition(ImGui.Point,ImGui.Vector)
+  fullName: ImGui.Point.Addition(ImGui.Point, ImGui.Vector)
+  nameWithType: Point.Addition(Point, Vector)
+- uid: ImGui.Point.op_Addition*
+  name: Addition
+  href: api/ImGui.Point.html#ImGui_Point_op_Addition_
+  commentId: Overload:ImGui.Point.op_Addition
+  fullName: ImGui.Point.Addition
+  nameWithType: Point.Addition
+- uid: ImGui.Point.op_Equality(ImGui.Point,ImGui.Point)
+  name: Equality(Point, Point)
+  href: api/ImGui.Point.html#ImGui_Point_op_Equality_ImGui_Point_ImGui_Point_
+  commentId: M:ImGui.Point.op_Equality(ImGui.Point,ImGui.Point)
+  fullName: ImGui.Point.Equality(ImGui.Point, ImGui.Point)
+  nameWithType: Point.Equality(Point, Point)
+- uid: ImGui.Point.op_Equality*
+  name: Equality
+  href: api/ImGui.Point.html#ImGui_Point_op_Equality_
+  commentId: Overload:ImGui.Point.op_Equality
+  fullName: ImGui.Point.Equality
+  nameWithType: Point.Equality
+- uid: ImGui.Point.op_Explicit(ImGui.Point)~ImGui.Size
+  name: Explicit(Point to Size)
+  href: api/ImGui.Point.html#ImGui_Point_op_Explicit_ImGui_Point__ImGui_Size
+  commentId: M:ImGui.Point.op_Explicit(ImGui.Point)~ImGui.Size
+  name.vb: Narrowing(Point to Size)
+  fullName: ImGui.Point.Explicit(ImGui.Point to ImGui.Size)
+  fullName.vb: ImGui.Point.Narrowing(ImGui.Point to ImGui.Size)
+  nameWithType: Point.Explicit(Point to Size)
+  nameWithType.vb: Narrowing(Point to Size)
+- uid: ImGui.Point.op_Explicit(ImGui.Point)~ImGui.Vector
+  name: Explicit(Point to Vector)
+  href: api/ImGui.Point.html#ImGui_Point_op_Explicit_ImGui_Point__ImGui_Vector
+  commentId: M:ImGui.Point.op_Explicit(ImGui.Point)~ImGui.Vector
+  name.vb: Narrowing(Point to Vector)
+  fullName: ImGui.Point.Explicit(ImGui.Point to ImGui.Vector)
+  fullName.vb: ImGui.Point.Narrowing(ImGui.Point to ImGui.Vector)
+  nameWithType: Point.Explicit(Point to Vector)
+  nameWithType.vb: Narrowing(Point to Vector)
+- uid: ImGui.Point.op_Explicit*
+  name: Explicit
+  href: api/ImGui.Point.html#ImGui_Point_op_Explicit_
+  commentId: Overload:ImGui.Point.op_Explicit
+  name.vb: Narrowing
+  fullName: ImGui.Point.Explicit
+  fullName.vb: ImGui.Point.Narrowing
+  nameWithType: Point.Explicit
+  nameWithType.vb: Point.Narrowing
+- uid: ImGui.Point.op_Inequality(ImGui.Point,ImGui.Point)
+  name: Inequality(Point, Point)
+  href: api/ImGui.Point.html#ImGui_Point_op_Inequality_ImGui_Point_ImGui_Point_
+  commentId: M:ImGui.Point.op_Inequality(ImGui.Point,ImGui.Point)
+  fullName: ImGui.Point.Inequality(ImGui.Point, ImGui.Point)
+  nameWithType: Point.Inequality(Point, Point)
+- uid: ImGui.Point.op_Inequality*
+  name: Inequality
+  href: api/ImGui.Point.html#ImGui_Point_op_Inequality_
+  commentId: Overload:ImGui.Point.op_Inequality
+  fullName: ImGui.Point.Inequality
+  nameWithType: Point.Inequality
+- uid: ImGui.Point.op_Subtraction(ImGui.Point,ImGui.Point)
+  name: Subtraction(Point, Point)
+  href: api/ImGui.Point.html#ImGui_Point_op_Subtraction_ImGui_Point_ImGui_Point_
+  commentId: M:ImGui.Point.op_Subtraction(ImGui.Point,ImGui.Point)
+  fullName: ImGui.Point.Subtraction(ImGui.Point, ImGui.Point)
+  nameWithType: Point.Subtraction(Point, Point)
+- uid: ImGui.Point.op_Subtraction(ImGui.Point,ImGui.Vector)
+  name: Subtraction(Point, Vector)
+  href: api/ImGui.Point.html#ImGui_Point_op_Subtraction_ImGui_Point_ImGui_Vector_
+  commentId: M:ImGui.Point.op_Subtraction(ImGui.Point,ImGui.Vector)
+  fullName: ImGui.Point.Subtraction(ImGui.Point, ImGui.Vector)
+  nameWithType: Point.Subtraction(Point, Vector)
+- uid: ImGui.Point.op_Subtraction*
+  name: Subtraction
+  href: api/ImGui.Point.html#ImGui_Point_op_Subtraction_
+  commentId: Overload:ImGui.Point.op_Subtraction
+  fullName: ImGui.Point.Subtraction
+  nameWithType: Point.Subtraction
+- uid: ImGui.Point.Parse(System.String)
+  name: Parse(String)
+  href: api/ImGui.Point.html#ImGui_Point_Parse_System_String_
+  commentId: M:ImGui.Point.Parse(System.String)
+  fullName: ImGui.Point.Parse(System.String)
+  nameWithType: Point.Parse(String)
+- uid: ImGui.Point.Parse*
+  name: Parse
+  href: api/ImGui.Point.html#ImGui_Point_Parse_
+  commentId: Overload:ImGui.Point.Parse
+  fullName: ImGui.Point.Parse
+  nameWithType: Point.Parse
+- uid: ImGui.Point.Subtract(ImGui.Point,ImGui.Point)
+  name: Subtract(Point, Point)
+  href: api/ImGui.Point.html#ImGui_Point_Subtract_ImGui_Point_ImGui_Point_
+  commentId: M:ImGui.Point.Subtract(ImGui.Point,ImGui.Point)
+  fullName: ImGui.Point.Subtract(ImGui.Point, ImGui.Point)
+  nameWithType: Point.Subtract(Point, Point)
+- uid: ImGui.Point.Subtract(ImGui.Point,ImGui.Vector)
+  name: Subtract(Point, Vector)
+  href: api/ImGui.Point.html#ImGui_Point_Subtract_ImGui_Point_ImGui_Vector_
+  commentId: M:ImGui.Point.Subtract(ImGui.Point,ImGui.Vector)
+  fullName: ImGui.Point.Subtract(ImGui.Point, ImGui.Vector)
+  nameWithType: Point.Subtract(Point, Vector)
+- uid: ImGui.Point.Subtract*
+  name: Subtract
+  href: api/ImGui.Point.html#ImGui_Point_Subtract_
+  commentId: Overload:ImGui.Point.Subtract
+  fullName: ImGui.Point.Subtract
+  nameWithType: Point.Subtract
+- uid: ImGui.Point.ToString
+  name: ToString()
+  href: api/ImGui.Point.html#ImGui_Point_ToString
+  commentId: M:ImGui.Point.ToString
+  fullName: ImGui.Point.ToString()
+  nameWithType: Point.ToString()
+- uid: ImGui.Point.ToString*
+  name: ToString
+  href: api/ImGui.Point.html#ImGui_Point_ToString_
+  commentId: Overload:ImGui.Point.ToString
+  fullName: ImGui.Point.ToString
+  nameWithType: Point.ToString
+- uid: ImGui.Point.X
+  name: X
+  href: api/ImGui.Point.html#ImGui_Point_X
+  commentId: P:ImGui.Point.X
+  fullName: ImGui.Point.X
+  nameWithType: Point.X
+- uid: ImGui.Point.X*
+  name: X
+  href: api/ImGui.Point.html#ImGui_Point_X_
+  commentId: Overload:ImGui.Point.X
+  fullName: ImGui.Point.X
+  nameWithType: Point.X
+- uid: ImGui.Point.Y
+  name: Y
+  href: api/ImGui.Point.html#ImGui_Point_Y
+  commentId: P:ImGui.Point.Y
+  fullName: ImGui.Point.Y
+  nameWithType: Point.Y
+- uid: ImGui.Point.Y*
+  name: Y
+  href: api/ImGui.Point.html#ImGui_Point_Y_
+  commentId: Overload:ImGui.Point.Y
+  fullName: ImGui.Point.Y
+  nameWithType: Point.Y
+- uid: ImGui.Point.Zero
+  name: Zero
+  href: api/ImGui.Point.html#ImGui_Point_Zero
+  commentId: F:ImGui.Point.Zero
+  fullName: ImGui.Point.Zero
+  nameWithType: Point.Zero
+- uid: ImGui.Rect
+  name: Rect
+  href: api/ImGui.Rect.html
+  commentId: T:ImGui.Rect
+  fullName: ImGui.Rect
+  nameWithType: Rect
+- uid: ImGui.Rect.#ctor(ImGui.Point,ImGui.Point)
+  name: Rect(Point, Point)
+  href: api/ImGui.Rect.html#ImGui_Rect__ctor_ImGui_Point_ImGui_Point_
+  commentId: M:ImGui.Rect.#ctor(ImGui.Point,ImGui.Point)
+  fullName: ImGui.Rect.Rect(ImGui.Point, ImGui.Point)
+  nameWithType: Rect.Rect(Point, Point)
+- uid: ImGui.Rect.#ctor(ImGui.Point,ImGui.Size)
+  name: Rect(Point, Size)
+  href: api/ImGui.Rect.html#ImGui_Rect__ctor_ImGui_Point_ImGui_Size_
+  commentId: M:ImGui.Rect.#ctor(ImGui.Point,ImGui.Size)
+  fullName: ImGui.Rect.Rect(ImGui.Point, ImGui.Size)
+  nameWithType: Rect.Rect(Point, Size)
+- uid: ImGui.Rect.#ctor(ImGui.Point,ImGui.Vector)
+  name: Rect(Point, Vector)
+  href: api/ImGui.Rect.html#ImGui_Rect__ctor_ImGui_Point_ImGui_Vector_
+  commentId: M:ImGui.Rect.#ctor(ImGui.Point,ImGui.Vector)
+  fullName: ImGui.Rect.Rect(ImGui.Point, ImGui.Vector)
+  nameWithType: Rect.Rect(Point, Vector)
+- uid: ImGui.Rect.#ctor(ImGui.Size)
+  name: Rect(Size)
+  href: api/ImGui.Rect.html#ImGui_Rect__ctor_ImGui_Size_
+  commentId: M:ImGui.Rect.#ctor(ImGui.Size)
+  fullName: ImGui.Rect.Rect(ImGui.Size)
+  nameWithType: Rect.Rect(Size)
+- uid: ImGui.Rect.#ctor(System.Double,System.Double)
+  name: Rect(Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect__ctor_System_Double_System_Double_
+  commentId: M:ImGui.Rect.#ctor(System.Double,System.Double)
+  fullName: ImGui.Rect.Rect(System.Double, System.Double)
+  nameWithType: Rect.Rect(Double, Double)
+- uid: ImGui.Rect.#ctor(System.Double,System.Double,ImGui.Size)
+  name: Rect(Double, Double, Size)
+  href: api/ImGui.Rect.html#ImGui_Rect__ctor_System_Double_System_Double_ImGui_Size_
+  commentId: M:ImGui.Rect.#ctor(System.Double,System.Double,ImGui.Size)
+  fullName: ImGui.Rect.Rect(System.Double, System.Double, ImGui.Size)
+  nameWithType: Rect.Rect(Double, Double, Size)
+- uid: ImGui.Rect.#ctor(System.Double,System.Double,System.Double,System.Double)
+  name: Rect(Double, Double, Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect__ctor_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:ImGui.Rect.#ctor(System.Double,System.Double,System.Double,System.Double)
+  fullName: ImGui.Rect.Rect(System.Double, System.Double, System.Double, System.Double)
+  nameWithType: Rect.Rect(Double, Double, Double, Double)
+- uid: ImGui.Rect.#ctor*
+  name: Rect
+  href: api/ImGui.Rect.html#ImGui_Rect__ctor_
+  commentId: Overload:ImGui.Rect.#ctor
+  fullName: ImGui.Rect.Rect
+  nameWithType: Rect.Rect
+- uid: ImGui.Rect.Big
+  name: Big
+  href: api/ImGui.Rect.html#ImGui_Rect_Big
+  commentId: P:ImGui.Rect.Big
+  fullName: ImGui.Rect.Big
+  nameWithType: Rect.Big
+- uid: ImGui.Rect.Big*
+  name: Big
+  href: api/ImGui.Rect.html#ImGui_Rect_Big_
+  commentId: Overload:ImGui.Rect.Big
+  fullName: ImGui.Rect.Big
+  nameWithType: Rect.Big
+- uid: ImGui.Rect.Bottom
+  name: Bottom
+  href: api/ImGui.Rect.html#ImGui_Rect_Bottom
+  commentId: P:ImGui.Rect.Bottom
+  fullName: ImGui.Rect.Bottom
+  nameWithType: Rect.Bottom
+- uid: ImGui.Rect.Bottom*
+  name: Bottom
+  href: api/ImGui.Rect.html#ImGui_Rect_Bottom_
+  commentId: Overload:ImGui.Rect.Bottom
+  fullName: ImGui.Rect.Bottom
+  nameWithType: Rect.Bottom
+- uid: ImGui.Rect.BottomLeft
+  name: BottomLeft
+  href: api/ImGui.Rect.html#ImGui_Rect_BottomLeft
+  commentId: P:ImGui.Rect.BottomLeft
+  fullName: ImGui.Rect.BottomLeft
+  nameWithType: Rect.BottomLeft
+- uid: ImGui.Rect.BottomLeft*
+  name: BottomLeft
+  href: api/ImGui.Rect.html#ImGui_Rect_BottomLeft_
+  commentId: Overload:ImGui.Rect.BottomLeft
+  fullName: ImGui.Rect.BottomLeft
+  nameWithType: Rect.BottomLeft
+- uid: ImGui.Rect.BottomRight
+  name: BottomRight
+  href: api/ImGui.Rect.html#ImGui_Rect_BottomRight
+  commentId: P:ImGui.Rect.BottomRight
+  fullName: ImGui.Rect.BottomRight
+  nameWithType: Rect.BottomRight
+- uid: ImGui.Rect.BottomRight*
+  name: BottomRight
+  href: api/ImGui.Rect.html#ImGui_Rect_BottomRight_
+  commentId: Overload:ImGui.Rect.BottomRight
+  fullName: ImGui.Rect.BottomRight
+  nameWithType: Rect.BottomRight
+- uid: ImGui.Rect.Center
+  name: Center
+  href: api/ImGui.Rect.html#ImGui_Rect_Center
+  commentId: P:ImGui.Rect.Center
+  fullName: ImGui.Rect.Center
+  nameWithType: Rect.Center
+- uid: ImGui.Rect.Center*
+  name: Center
+  href: api/ImGui.Rect.html#ImGui_Rect_Center_
+  commentId: Overload:ImGui.Rect.Center
+  fullName: ImGui.Rect.Center
+  nameWithType: Rect.Center
+- uid: ImGui.Rect.Contains(ImGui.Point)
+  name: Contains(Point)
+  href: api/ImGui.Rect.html#ImGui_Rect_Contains_ImGui_Point_
+  commentId: M:ImGui.Rect.Contains(ImGui.Point)
+  fullName: ImGui.Rect.Contains(ImGui.Point)
+  nameWithType: Rect.Contains(Point)
+- uid: ImGui.Rect.Contains(ImGui.Rect)
+  name: Contains(Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_Contains_ImGui_Rect_
+  commentId: M:ImGui.Rect.Contains(ImGui.Rect)
+  fullName: ImGui.Rect.Contains(ImGui.Rect)
+  nameWithType: Rect.Contains(Rect)
+- uid: ImGui.Rect.Contains(System.Double,System.Double)
+  name: Contains(Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect_Contains_System_Double_System_Double_
+  commentId: M:ImGui.Rect.Contains(System.Double,System.Double)
+  fullName: ImGui.Rect.Contains(System.Double, System.Double)
+  nameWithType: Rect.Contains(Double, Double)
+- uid: ImGui.Rect.Contains*
+  name: Contains
+  href: api/ImGui.Rect.html#ImGui_Rect_Contains_
+  commentId: Overload:ImGui.Rect.Contains
+  fullName: ImGui.Rect.Contains
+  nameWithType: Rect.Contains
+- uid: ImGui.Rect.Empty
+  name: Empty
+  href: api/ImGui.Rect.html#ImGui_Rect_Empty
+  commentId: P:ImGui.Rect.Empty
+  fullName: ImGui.Rect.Empty
+  nameWithType: Rect.Empty
+- uid: ImGui.Rect.Empty*
+  name: Empty
+  href: api/ImGui.Rect.html#ImGui_Rect_Empty_
+  commentId: Overload:ImGui.Rect.Empty
+  fullName: ImGui.Rect.Empty
+  nameWithType: Rect.Empty
+- uid: ImGui.Rect.Equals(ImGui.Rect)
+  name: Equals(Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_Equals_ImGui_Rect_
+  commentId: M:ImGui.Rect.Equals(ImGui.Rect)
+  fullName: ImGui.Rect.Equals(ImGui.Rect)
+  nameWithType: Rect.Equals(Rect)
+- uid: ImGui.Rect.Equals(ImGui.Rect,ImGui.Rect)
+  name: Equals(Rect, Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_Equals_ImGui_Rect_ImGui_Rect_
+  commentId: M:ImGui.Rect.Equals(ImGui.Rect,ImGui.Rect)
+  fullName: ImGui.Rect.Equals(ImGui.Rect, ImGui.Rect)
+  nameWithType: Rect.Equals(Rect, Rect)
+- uid: ImGui.Rect.Equals(System.Object)
+  name: Equals(Object)
+  href: api/ImGui.Rect.html#ImGui_Rect_Equals_System_Object_
+  commentId: M:ImGui.Rect.Equals(System.Object)
+  fullName: ImGui.Rect.Equals(System.Object)
+  nameWithType: Rect.Equals(Object)
+- uid: ImGui.Rect.Equals*
+  name: Equals
+  href: api/ImGui.Rect.html#ImGui_Rect_Equals_
+  commentId: Overload:ImGui.Rect.Equals
+  fullName: ImGui.Rect.Equals
+  nameWithType: Rect.Equals
+- uid: ImGui.Rect.GetHashCode
+  name: GetHashCode()
+  href: api/ImGui.Rect.html#ImGui_Rect_GetHashCode
+  commentId: M:ImGui.Rect.GetHashCode
+  fullName: ImGui.Rect.GetHashCode()
+  nameWithType: Rect.GetHashCode()
+- uid: ImGui.Rect.GetHashCode*
+  name: GetHashCode
+  href: api/ImGui.Rect.html#ImGui_Rect_GetHashCode_
+  commentId: Overload:ImGui.Rect.GetHashCode
+  fullName: ImGui.Rect.GetHashCode
+  nameWithType: Rect.GetHashCode
+- uid: ImGui.Rect.Height
+  name: Height
+  href: api/ImGui.Rect.html#ImGui_Rect_Height
+  commentId: P:ImGui.Rect.Height
+  fullName: ImGui.Rect.Height
+  nameWithType: Rect.Height
+- uid: ImGui.Rect.Height*
+  name: Height
+  href: api/ImGui.Rect.html#ImGui_Rect_Height_
+  commentId: Overload:ImGui.Rect.Height
+  fullName: ImGui.Rect.Height
+  nameWithType: Rect.Height
+- uid: ImGui.Rect.Inflate(ImGui.Rect,ImGui.Size)
+  name: Inflate(Rect, Size)
+  href: api/ImGui.Rect.html#ImGui_Rect_Inflate_ImGui_Rect_ImGui_Size_
+  commentId: M:ImGui.Rect.Inflate(ImGui.Rect,ImGui.Size)
+  fullName: ImGui.Rect.Inflate(ImGui.Rect, ImGui.Size)
+  nameWithType: Rect.Inflate(Rect, Size)
+- uid: ImGui.Rect.Inflate(ImGui.Rect,System.Double,System.Double)
+  name: Inflate(Rect, Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect_Inflate_ImGui_Rect_System_Double_System_Double_
+  commentId: M:ImGui.Rect.Inflate(ImGui.Rect,System.Double,System.Double)
+  fullName: ImGui.Rect.Inflate(ImGui.Rect, System.Double, System.Double)
+  nameWithType: Rect.Inflate(Rect, Double, Double)
+- uid: ImGui.Rect.Inflate(ImGui.Rect,System.Double,System.Double,System.Double,System.Double)
+  name: Inflate(Rect, Double, Double, Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect_Inflate_ImGui_Rect_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:ImGui.Rect.Inflate(ImGui.Rect,System.Double,System.Double,System.Double,System.Double)
+  fullName: ImGui.Rect.Inflate(ImGui.Rect, System.Double, System.Double, System.Double, System.Double)
+  nameWithType: Rect.Inflate(Rect, Double, Double, Double, Double)
+- uid: ImGui.Rect.Inflate(ImGui.Size)
+  name: Inflate(Size)
+  href: api/ImGui.Rect.html#ImGui_Rect_Inflate_ImGui_Size_
+  commentId: M:ImGui.Rect.Inflate(ImGui.Size)
+  fullName: ImGui.Rect.Inflate(ImGui.Size)
+  nameWithType: Rect.Inflate(Size)
+- uid: ImGui.Rect.Inflate(System.Double,System.Double)
+  name: Inflate(Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect_Inflate_System_Double_System_Double_
+  commentId: M:ImGui.Rect.Inflate(System.Double,System.Double)
+  fullName: ImGui.Rect.Inflate(System.Double, System.Double)
+  nameWithType: Rect.Inflate(Double, Double)
+- uid: ImGui.Rect.Inflate(System.Double,System.Double,System.Double,System.Double)
+  name: Inflate(Double, Double, Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect_Inflate_System_Double_System_Double_System_Double_System_Double_
+  commentId: M:ImGui.Rect.Inflate(System.Double,System.Double,System.Double,System.Double)
+  fullName: ImGui.Rect.Inflate(System.Double, System.Double, System.Double, System.Double)
+  nameWithType: Rect.Inflate(Double, Double, Double, Double)
+- uid: ImGui.Rect.Inflate*
+  name: Inflate
+  href: api/ImGui.Rect.html#ImGui_Rect_Inflate_
+  commentId: Overload:ImGui.Rect.Inflate
+  fullName: ImGui.Rect.Inflate
+  nameWithType: Rect.Inflate
+- uid: ImGui.Rect.Intersect(ImGui.Rect)
+  name: Intersect(Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_Intersect_ImGui_Rect_
+  commentId: M:ImGui.Rect.Intersect(ImGui.Rect)
+  fullName: ImGui.Rect.Intersect(ImGui.Rect)
+  nameWithType: Rect.Intersect(Rect)
+- uid: ImGui.Rect.Intersect(ImGui.Rect,ImGui.Rect)
+  name: Intersect(Rect, Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_Intersect_ImGui_Rect_ImGui_Rect_
+  commentId: M:ImGui.Rect.Intersect(ImGui.Rect,ImGui.Rect)
+  fullName: ImGui.Rect.Intersect(ImGui.Rect, ImGui.Rect)
+  nameWithType: Rect.Intersect(Rect, Rect)
+- uid: ImGui.Rect.Intersect*
+  name: Intersect
+  href: api/ImGui.Rect.html#ImGui_Rect_Intersect_
+  commentId: Overload:ImGui.Rect.Intersect
+  fullName: ImGui.Rect.Intersect
+  nameWithType: Rect.Intersect
+- uid: ImGui.Rect.IntersectsWith(ImGui.Rect)
+  name: IntersectsWith(Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_IntersectsWith_ImGui_Rect_
+  commentId: M:ImGui.Rect.IntersectsWith(ImGui.Rect)
+  fullName: ImGui.Rect.IntersectsWith(ImGui.Rect)
+  nameWithType: Rect.IntersectsWith(Rect)
+- uid: ImGui.Rect.IntersectsWith*
+  name: IntersectsWith
+  href: api/ImGui.Rect.html#ImGui_Rect_IntersectsWith_
+  commentId: Overload:ImGui.Rect.IntersectsWith
+  fullName: ImGui.Rect.IntersectsWith
+  nameWithType: Rect.IntersectsWith
+- uid: ImGui.Rect.IsBig
+  name: IsBig
+  href: api/ImGui.Rect.html#ImGui_Rect_IsBig
+  commentId: P:ImGui.Rect.IsBig
+  fullName: ImGui.Rect.IsBig
+  nameWithType: Rect.IsBig
+- uid: ImGui.Rect.IsBig*
+  name: IsBig
+  href: api/ImGui.Rect.html#ImGui_Rect_IsBig_
+  commentId: Overload:ImGui.Rect.IsBig
+  fullName: ImGui.Rect.IsBig
+  nameWithType: Rect.IsBig
+- uid: ImGui.Rect.IsEmpty
+  name: IsEmpty
+  href: api/ImGui.Rect.html#ImGui_Rect_IsEmpty
+  commentId: P:ImGui.Rect.IsEmpty
+  fullName: ImGui.Rect.IsEmpty
+  nameWithType: Rect.IsEmpty
+- uid: ImGui.Rect.IsEmpty*
+  name: IsEmpty
+  href: api/ImGui.Rect.html#ImGui_Rect_IsEmpty_
+  commentId: Overload:ImGui.Rect.IsEmpty
+  fullName: ImGui.Rect.IsEmpty
+  nameWithType: Rect.IsEmpty
+- uid: ImGui.Rect.Left
+  name: Left
+  href: api/ImGui.Rect.html#ImGui_Rect_Left
+  commentId: P:ImGui.Rect.Left
+  fullName: ImGui.Rect.Left
+  nameWithType: Rect.Left
+- uid: ImGui.Rect.Left*
+  name: Left
+  href: api/ImGui.Rect.html#ImGui_Rect_Left_
+  commentId: Overload:ImGui.Rect.Left
+  fullName: ImGui.Rect.Left
+  nameWithType: Rect.Left
+- uid: ImGui.Rect.Location
+  name: Location
+  href: api/ImGui.Rect.html#ImGui_Rect_Location
+  commentId: P:ImGui.Rect.Location
+  fullName: ImGui.Rect.Location
+  nameWithType: Rect.Location
+- uid: ImGui.Rect.Location*
+  name: Location
+  href: api/ImGui.Rect.html#ImGui_Rect_Location_
+  commentId: Overload:ImGui.Rect.Location
+  fullName: ImGui.Rect.Location
+  nameWithType: Rect.Location
+- uid: ImGui.Rect.Offset(ImGui.Rect,ImGui.Vector)
+  name: Offset(Rect, Vector)
+  href: api/ImGui.Rect.html#ImGui_Rect_Offset_ImGui_Rect_ImGui_Vector_
+  commentId: M:ImGui.Rect.Offset(ImGui.Rect,ImGui.Vector)
+  fullName: ImGui.Rect.Offset(ImGui.Rect, ImGui.Vector)
+  nameWithType: Rect.Offset(Rect, Vector)
+- uid: ImGui.Rect.Offset(ImGui.Rect,System.Double,System.Double)
+  name: Offset(Rect, Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect_Offset_ImGui_Rect_System_Double_System_Double_
+  commentId: M:ImGui.Rect.Offset(ImGui.Rect,System.Double,System.Double)
+  fullName: ImGui.Rect.Offset(ImGui.Rect, System.Double, System.Double)
+  nameWithType: Rect.Offset(Rect, Double, Double)
+- uid: ImGui.Rect.Offset(ImGui.Vector)
+  name: Offset(Vector)
+  href: api/ImGui.Rect.html#ImGui_Rect_Offset_ImGui_Vector_
+  commentId: M:ImGui.Rect.Offset(ImGui.Vector)
+  fullName: ImGui.Rect.Offset(ImGui.Vector)
+  nameWithType: Rect.Offset(Vector)
+- uid: ImGui.Rect.Offset(System.Double,System.Double)
+  name: Offset(Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect_Offset_System_Double_System_Double_
+  commentId: M:ImGui.Rect.Offset(System.Double,System.Double)
+  fullName: ImGui.Rect.Offset(System.Double, System.Double)
+  nameWithType: Rect.Offset(Double, Double)
+- uid: ImGui.Rect.Offset*
+  name: Offset
+  href: api/ImGui.Rect.html#ImGui_Rect_Offset_
+  commentId: Overload:ImGui.Rect.Offset
+  fullName: ImGui.Rect.Offset
+  nameWithType: Rect.Offset
+- uid: ImGui.Rect.op_Equality(ImGui.Rect,ImGui.Rect)
+  name: Equality(Rect, Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_op_Equality_ImGui_Rect_ImGui_Rect_
+  commentId: M:ImGui.Rect.op_Equality(ImGui.Rect,ImGui.Rect)
+  fullName: ImGui.Rect.Equality(ImGui.Rect, ImGui.Rect)
+  nameWithType: Rect.Equality(Rect, Rect)
+- uid: ImGui.Rect.op_Equality*
+  name: Equality
+  href: api/ImGui.Rect.html#ImGui_Rect_op_Equality_
+  commentId: Overload:ImGui.Rect.op_Equality
+  fullName: ImGui.Rect.Equality
+  nameWithType: Rect.Equality
+- uid: ImGui.Rect.op_Inequality(ImGui.Rect,ImGui.Rect)
+  name: Inequality(Rect, Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_op_Inequality_ImGui_Rect_ImGui_Rect_
+  commentId: M:ImGui.Rect.op_Inequality(ImGui.Rect,ImGui.Rect)
+  fullName: ImGui.Rect.Inequality(ImGui.Rect, ImGui.Rect)
+  nameWithType: Rect.Inequality(Rect, Rect)
+- uid: ImGui.Rect.op_Inequality*
+  name: Inequality
+  href: api/ImGui.Rect.html#ImGui_Rect_op_Inequality_
+  commentId: Overload:ImGui.Rect.op_Inequality
+  fullName: ImGui.Rect.Inequality
+  nameWithType: Rect.Inequality
+- uid: ImGui.Rect.Parse(System.String)
+  name: Parse(String)
+  href: api/ImGui.Rect.html#ImGui_Rect_Parse_System_String_
+  commentId: M:ImGui.Rect.Parse(System.String)
+  fullName: ImGui.Rect.Parse(System.String)
+  nameWithType: Rect.Parse(String)
+- uid: ImGui.Rect.Parse*
+  name: Parse
+  href: api/ImGui.Rect.html#ImGui_Rect_Parse_
+  commentId: Overload:ImGui.Rect.Parse
+  fullName: ImGui.Rect.Parse
+  nameWithType: Rect.Parse
+- uid: ImGui.Rect.Right
+  name: Right
+  href: api/ImGui.Rect.html#ImGui_Rect_Right
+  commentId: P:ImGui.Rect.Right
+  fullName: ImGui.Rect.Right
+  nameWithType: Rect.Right
+- uid: ImGui.Rect.Right*
+  name: Right
+  href: api/ImGui.Rect.html#ImGui_Rect_Right_
+  commentId: Overload:ImGui.Rect.Right
+  fullName: ImGui.Rect.Right
+  nameWithType: Rect.Right
+- uid: ImGui.Rect.Scale(System.Double,System.Double)
+  name: Scale(Double, Double)
+  href: api/ImGui.Rect.html#ImGui_Rect_Scale_System_Double_System_Double_
+  commentId: M:ImGui.Rect.Scale(System.Double,System.Double)
+  fullName: ImGui.Rect.Scale(System.Double, System.Double)
+  nameWithType: Rect.Scale(Double, Double)
+- uid: ImGui.Rect.Scale*
+  name: Scale
+  href: api/ImGui.Rect.html#ImGui_Rect_Scale_
+  commentId: Overload:ImGui.Rect.Scale
+  fullName: ImGui.Rect.Scale
+  nameWithType: Rect.Scale
+- uid: ImGui.Rect.Size
+  name: Size
+  href: api/ImGui.Rect.html#ImGui_Rect_Size
+  commentId: P:ImGui.Rect.Size
+  fullName: ImGui.Rect.Size
+  nameWithType: Rect.Size
+- uid: ImGui.Rect.Size*
+  name: Size
+  href: api/ImGui.Rect.html#ImGui_Rect_Size_
+  commentId: Overload:ImGui.Rect.Size
+  fullName: ImGui.Rect.Size
+  nameWithType: Rect.Size
+- uid: ImGui.Rect.System#IFormattable#ToString(System.String,System.IFormatProvider)
+  name: IFormattable.ToString(String, IFormatProvider)
+  href: api/ImGui.Rect.html#ImGui_Rect_System_IFormattable_ToString_System_String_System_IFormatProvider_
+  commentId: M:ImGui.Rect.System#IFormattable#ToString(System.String,System.IFormatProvider)
+  name.vb: System.IFormattable.ToString(String, IFormatProvider)
+  fullName: ImGui.Rect.System.IFormattable.ToString(System.String, System.IFormatProvider)
+  nameWithType: Rect.IFormattable.ToString(String, IFormatProvider)
+  nameWithType.vb: System.IFormattable.ToString(String, IFormatProvider)
+- uid: ImGui.Rect.System#IFormattable#ToString*
+  name: IFormattable.ToString
+  href: api/ImGui.Rect.html#ImGui_Rect_System_IFormattable_ToString_
+  commentId: Overload:ImGui.Rect.System#IFormattable#ToString
+  name.vb: System.IFormattable.ToString
+  fullName: ImGui.Rect.System.IFormattable.ToString
+  nameWithType: Rect.IFormattable.ToString
+  nameWithType.vb: Rect.System.IFormattable.ToString
+- uid: ImGui.Rect.Top
+  name: Top
+  href: api/ImGui.Rect.html#ImGui_Rect_Top
+  commentId: P:ImGui.Rect.Top
+  fullName: ImGui.Rect.Top
+  nameWithType: Rect.Top
+- uid: ImGui.Rect.Top*
+  name: Top
+  href: api/ImGui.Rect.html#ImGui_Rect_Top_
+  commentId: Overload:ImGui.Rect.Top
+  fullName: ImGui.Rect.Top
+  nameWithType: Rect.Top
+- uid: ImGui.Rect.TopLeft
+  name: TopLeft
+  href: api/ImGui.Rect.html#ImGui_Rect_TopLeft
+  commentId: P:ImGui.Rect.TopLeft
+  fullName: ImGui.Rect.TopLeft
+  nameWithType: Rect.TopLeft
+- uid: ImGui.Rect.TopLeft*
+  name: TopLeft
+  href: api/ImGui.Rect.html#ImGui_Rect_TopLeft_
+  commentId: Overload:ImGui.Rect.TopLeft
+  fullName: ImGui.Rect.TopLeft
+  nameWithType: Rect.TopLeft
+- uid: ImGui.Rect.TopRight
+  name: TopRight
+  href: api/ImGui.Rect.html#ImGui_Rect_TopRight
+  commentId: P:ImGui.Rect.TopRight
+  fullName: ImGui.Rect.TopRight
+  nameWithType: Rect.TopRight
+- uid: ImGui.Rect.TopRight*
+  name: TopRight
+  href: api/ImGui.Rect.html#ImGui_Rect_TopRight_
+  commentId: Overload:ImGui.Rect.TopRight
+  fullName: ImGui.Rect.TopRight
+  nameWithType: Rect.TopRight
+- uid: ImGui.Rect.ToString
+  name: ToString()
+  href: api/ImGui.Rect.html#ImGui_Rect_ToString
+  commentId: M:ImGui.Rect.ToString
+  fullName: ImGui.Rect.ToString()
+  nameWithType: Rect.ToString()
+- uid: ImGui.Rect.ToString(System.IFormatProvider)
+  name: ToString(IFormatProvider)
+  href: api/ImGui.Rect.html#ImGui_Rect_ToString_System_IFormatProvider_
+  commentId: M:ImGui.Rect.ToString(System.IFormatProvider)
+  fullName: ImGui.Rect.ToString(System.IFormatProvider)
+  nameWithType: Rect.ToString(IFormatProvider)
+- uid: ImGui.Rect.ToString*
+  name: ToString
+  href: api/ImGui.Rect.html#ImGui_Rect_ToString_
+  commentId: Overload:ImGui.Rect.ToString
+  fullName: ImGui.Rect.ToString
+  nameWithType: Rect.ToString
+- uid: ImGui.Rect.Union(ImGui.Point)
+  name: Union(Point)
+  href: api/ImGui.Rect.html#ImGui_Rect_Union_ImGui_Point_
+  commentId: M:ImGui.Rect.Union(ImGui.Point)
+  fullName: ImGui.Rect.Union(ImGui.Point)
+  nameWithType: Rect.Union(Point)
+- uid: ImGui.Rect.Union(ImGui.Rect)
+  name: Union(Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_Union_ImGui_Rect_
+  commentId: M:ImGui.Rect.Union(ImGui.Rect)
+  fullName: ImGui.Rect.Union(ImGui.Rect)
+  nameWithType: Rect.Union(Rect)
+- uid: ImGui.Rect.Union(ImGui.Rect,ImGui.Point)
+  name: Union(Rect, Point)
+  href: api/ImGui.Rect.html#ImGui_Rect_Union_ImGui_Rect_ImGui_Point_
+  commentId: M:ImGui.Rect.Union(ImGui.Rect,ImGui.Point)
+  fullName: ImGui.Rect.Union(ImGui.Rect, ImGui.Point)
+  nameWithType: Rect.Union(Rect, Point)
+- uid: ImGui.Rect.Union(ImGui.Rect,ImGui.Rect)
+  name: Union(Rect, Rect)
+  href: api/ImGui.Rect.html#ImGui_Rect_Union_ImGui_Rect_ImGui_Rect_
+  commentId: M:ImGui.Rect.Union(ImGui.Rect,ImGui.Rect)
+  fullName: ImGui.Rect.Union(ImGui.Rect, ImGui.Rect)
+  nameWithType: Rect.Union(Rect, Rect)
+- uid: ImGui.Rect.Union*
+  name: Union
+  href: api/ImGui.Rect.html#ImGui_Rect_Union_
+  commentId: Overload:ImGui.Rect.Union
+  fullName: ImGui.Rect.Union
+  nameWithType: Rect.Union
+- uid: ImGui.Rect.Width
+  name: Width
+  href: api/ImGui.Rect.html#ImGui_Rect_Width
+  commentId: P:ImGui.Rect.Width
+  fullName: ImGui.Rect.Width
+  nameWithType: Rect.Width
+- uid: ImGui.Rect.Width*
+  name: Width
+  href: api/ImGui.Rect.html#ImGui_Rect_Width_
+  commentId: Overload:ImGui.Rect.Width
+  fullName: ImGui.Rect.Width
+  nameWithType: Rect.Width
+- uid: ImGui.Rect.X
+  name: X
+  href: api/ImGui.Rect.html#ImGui_Rect_X
+  commentId: P:ImGui.Rect.X
+  fullName: ImGui.Rect.X
+  nameWithType: Rect.X
+- uid: ImGui.Rect.X*
+  name: X
+  href: api/ImGui.Rect.html#ImGui_Rect_X_
+  commentId: Overload:ImGui.Rect.X
+  fullName: ImGui.Rect.X
+  nameWithType: Rect.X
+- uid: ImGui.Rect.Y
+  name: Y
+  href: api/ImGui.Rect.html#ImGui_Rect_Y
+  commentId: P:ImGui.Rect.Y
+  fullName: ImGui.Rect.Y
+  nameWithType: Rect.Y
+- uid: ImGui.Rect.Y*
+  name: Y
+  href: api/ImGui.Rect.html#ImGui_Rect_Y_
+  commentId: Overload:ImGui.Rect.Y
+  fullName: ImGui.Rect.Y
+  nameWithType: Rect.Y
+- uid: ImGui.Rect.Zero
+  name: Zero
+  href: api/ImGui.Rect.html#ImGui_Rect_Zero
+  commentId: P:ImGui.Rect.Zero
+  fullName: ImGui.Rect.Zero
+  nameWithType: Rect.Zero
+- uid: ImGui.Rect.Zero*
+  name: Zero
+  href: api/ImGui.Rect.html#ImGui_Rect_Zero_
+  commentId: Overload:ImGui.Rect.Zero
+  fullName: ImGui.Rect.Zero
+  nameWithType: Rect.Zero
+- uid: ImGui.Size
+  name: Size
+  href: api/ImGui.Size.html
+  commentId: T:ImGui.Size
+  fullName: ImGui.Size
+  nameWithType: Size
+- uid: ImGui.Size.#ctor(System.Double,System.Double)
+  name: Size(Double, Double)
+  href: api/ImGui.Size.html#ImGui_Size__ctor_System_Double_System_Double_
+  commentId: M:ImGui.Size.#ctor(System.Double,System.Double)
+  fullName: ImGui.Size.Size(System.Double, System.Double)
+  nameWithType: Size.Size(Double, Double)
+- uid: ImGui.Size.#ctor*
+  name: Size
+  href: api/ImGui.Size.html#ImGui_Size__ctor_
+  commentId: Overload:ImGui.Size.#ctor
+  fullName: ImGui.Size.Size
+  nameWithType: Size.Size
+- uid: ImGui.Size.Empty
+  name: Empty
+  href: api/ImGui.Size.html#ImGui_Size_Empty
+  commentId: P:ImGui.Size.Empty
+  fullName: ImGui.Size.Empty
+  nameWithType: Size.Empty
+- uid: ImGui.Size.Empty*
+  name: Empty
+  href: api/ImGui.Size.html#ImGui_Size_Empty_
+  commentId: Overload:ImGui.Size.Empty
+  fullName: ImGui.Size.Empty
+  nameWithType: Size.Empty
+- uid: ImGui.Size.Equals(ImGui.Size)
+  name: Equals(Size)
+  href: api/ImGui.Size.html#ImGui_Size_Equals_ImGui_Size_
+  commentId: M:ImGui.Size.Equals(ImGui.Size)
+  fullName: ImGui.Size.Equals(ImGui.Size)
+  nameWithType: Size.Equals(Size)
+- uid: ImGui.Size.Equals(ImGui.Size,ImGui.Size)
+  name: Equals(Size, Size)
+  href: api/ImGui.Size.html#ImGui_Size_Equals_ImGui_Size_ImGui_Size_
+  commentId: M:ImGui.Size.Equals(ImGui.Size,ImGui.Size)
+  fullName: ImGui.Size.Equals(ImGui.Size, ImGui.Size)
+  nameWithType: Size.Equals(Size, Size)
+- uid: ImGui.Size.Equals(System.Object)
+  name: Equals(Object)
+  href: api/ImGui.Size.html#ImGui_Size_Equals_System_Object_
+  commentId: M:ImGui.Size.Equals(System.Object)
+  fullName: ImGui.Size.Equals(System.Object)
+  nameWithType: Size.Equals(Object)
+- uid: ImGui.Size.Equals*
+  name: Equals
+  href: api/ImGui.Size.html#ImGui_Size_Equals_
+  commentId: Overload:ImGui.Size.Equals
+  fullName: ImGui.Size.Equals
+  nameWithType: Size.Equals
+- uid: ImGui.Size.GetHashCode
+  name: GetHashCode()
+  href: api/ImGui.Size.html#ImGui_Size_GetHashCode
+  commentId: M:ImGui.Size.GetHashCode
+  fullName: ImGui.Size.GetHashCode()
+  nameWithType: Size.GetHashCode()
+- uid: ImGui.Size.GetHashCode*
+  name: GetHashCode
+  href: api/ImGui.Size.html#ImGui_Size_GetHashCode_
+  commentId: Overload:ImGui.Size.GetHashCode
+  fullName: ImGui.Size.GetHashCode
+  nameWithType: Size.GetHashCode
+- uid: ImGui.Size.Height
+  name: Height
+  href: api/ImGui.Size.html#ImGui_Size_Height
+  commentId: P:ImGui.Size.Height
+  fullName: ImGui.Size.Height
+  nameWithType: Size.Height
+- uid: ImGui.Size.Height*
+  name: Height
+  href: api/ImGui.Size.html#ImGui_Size_Height_
+  commentId: Overload:ImGui.Size.Height
+  fullName: ImGui.Size.Height
+  nameWithType: Size.Height
+- uid: ImGui.Size.IsEmpty
+  name: IsEmpty
+  href: api/ImGui.Size.html#ImGui_Size_IsEmpty
+  commentId: P:ImGui.Size.IsEmpty
+  fullName: ImGui.Size.IsEmpty
+  nameWithType: Size.IsEmpty
+- uid: ImGui.Size.IsEmpty*
+  name: IsEmpty
+  href: api/ImGui.Size.html#ImGui_Size_IsEmpty_
+  commentId: Overload:ImGui.Size.IsEmpty
+  fullName: ImGui.Size.IsEmpty
+  nameWithType: Size.IsEmpty
+- uid: ImGui.Size.op_Equality(ImGui.Size,ImGui.Size)
+  name: Equality(Size, Size)
+  href: api/ImGui.Size.html#ImGui_Size_op_Equality_ImGui_Size_ImGui_Size_
+  commentId: M:ImGui.Size.op_Equality(ImGui.Size,ImGui.Size)
+  fullName: ImGui.Size.Equality(ImGui.Size, ImGui.Size)
+  nameWithType: Size.Equality(Size, Size)
+- uid: ImGui.Size.op_Equality*
+  name: Equality
+  href: api/ImGui.Size.html#ImGui_Size_op_Equality_
+  commentId: Overload:ImGui.Size.op_Equality
+  fullName: ImGui.Size.Equality
+  nameWithType: Size.Equality
+- uid: ImGui.Size.op_Explicit(ImGui.Size)~ImGui.Point
+  name: Explicit(Size to Point)
+  href: api/ImGui.Size.html#ImGui_Size_op_Explicit_ImGui_Size__ImGui_Point
+  commentId: M:ImGui.Size.op_Explicit(ImGui.Size)~ImGui.Point
+  name.vb: Narrowing(Size to Point)
+  fullName: ImGui.Size.Explicit(ImGui.Size to ImGui.Point)
+  fullName.vb: ImGui.Size.Narrowing(ImGui.Size to ImGui.Point)
+  nameWithType: Size.Explicit(Size to Point)
+  nameWithType.vb: Narrowing(Size to Point)
+- uid: ImGui.Size.op_Explicit(ImGui.Size)~ImGui.Vector
+  name: Explicit(Size to Vector)
+  href: api/ImGui.Size.html#ImGui_Size_op_Explicit_ImGui_Size__ImGui_Vector
+  commentId: M:ImGui.Size.op_Explicit(ImGui.Size)~ImGui.Vector
+  name.vb: Narrowing(Size to Vector)
+  fullName: ImGui.Size.Explicit(ImGui.Size to ImGui.Vector)
+  fullName.vb: ImGui.Size.Narrowing(ImGui.Size to ImGui.Vector)
+  nameWithType: Size.Explicit(Size to Vector)
+  nameWithType.vb: Narrowing(Size to Vector)
+- uid: ImGui.Size.op_Explicit*
+  name: Explicit
+  href: api/ImGui.Size.html#ImGui_Size_op_Explicit_
+  commentId: Overload:ImGui.Size.op_Explicit
+  name.vb: Narrowing
+  fullName: ImGui.Size.Explicit
+  fullName.vb: ImGui.Size.Narrowing
+  nameWithType: Size.Explicit
+  nameWithType.vb: Size.Narrowing
+- uid: ImGui.Size.op_Inequality(ImGui.Size,ImGui.Size)
+  name: Inequality(Size, Size)
+  href: api/ImGui.Size.html#ImGui_Size_op_Inequality_ImGui_Size_ImGui_Size_
+  commentId: M:ImGui.Size.op_Inequality(ImGui.Size,ImGui.Size)
+  fullName: ImGui.Size.Inequality(ImGui.Size, ImGui.Size)
+  nameWithType: Size.Inequality(Size, Size)
+- uid: ImGui.Size.op_Inequality*
+  name: Inequality
+  href: api/ImGui.Size.html#ImGui_Size_op_Inequality_
+  commentId: Overload:ImGui.Size.op_Inequality
+  fullName: ImGui.Size.Inequality
+  nameWithType: Size.Inequality
+- uid: ImGui.Size.Parse(System.String)
+  name: Parse(String)
+  href: api/ImGui.Size.html#ImGui_Size_Parse_System_String_
+  commentId: M:ImGui.Size.Parse(System.String)
+  fullName: ImGui.Size.Parse(System.String)
+  nameWithType: Size.Parse(String)
+- uid: ImGui.Size.Parse*
+  name: Parse
+  href: api/ImGui.Size.html#ImGui_Size_Parse_
+  commentId: Overload:ImGui.Size.Parse
+  fullName: ImGui.Size.Parse
+  nameWithType: Size.Parse
+- uid: ImGui.Size.System#IFormattable#ToString(System.String,System.IFormatProvider)
+  name: IFormattable.ToString(String, IFormatProvider)
+  href: api/ImGui.Size.html#ImGui_Size_System_IFormattable_ToString_System_String_System_IFormatProvider_
+  commentId: M:ImGui.Size.System#IFormattable#ToString(System.String,System.IFormatProvider)
+  name.vb: System.IFormattable.ToString(String, IFormatProvider)
+  fullName: ImGui.Size.System.IFormattable.ToString(System.String, System.IFormatProvider)
+  nameWithType: Size.IFormattable.ToString(String, IFormatProvider)
+  nameWithType.vb: System.IFormattable.ToString(String, IFormatProvider)
+- uid: ImGui.Size.System#IFormattable#ToString*
+  name: IFormattable.ToString
+  href: api/ImGui.Size.html#ImGui_Size_System_IFormattable_ToString_
+  commentId: Overload:ImGui.Size.System#IFormattable#ToString
+  name.vb: System.IFormattable.ToString
+  fullName: ImGui.Size.System.IFormattable.ToString
+  nameWithType: Size.IFormattable.ToString
+  nameWithType.vb: Size.System.IFormattable.ToString
+- uid: ImGui.Size.ToString
+  name: ToString()
+  href: api/ImGui.Size.html#ImGui_Size_ToString
+  commentId: M:ImGui.Size.ToString
+  fullName: ImGui.Size.ToString()
+  nameWithType: Size.ToString()
+- uid: ImGui.Size.ToString(System.IFormatProvider)
+  name: ToString(IFormatProvider)
+  href: api/ImGui.Size.html#ImGui_Size_ToString_System_IFormatProvider_
+  commentId: M:ImGui.Size.ToString(System.IFormatProvider)
+  fullName: ImGui.Size.ToString(System.IFormatProvider)
+  nameWithType: Size.ToString(IFormatProvider)
+- uid: ImGui.Size.ToString*
+  name: ToString
+  href: api/ImGui.Size.html#ImGui_Size_ToString_
+  commentId: Overload:ImGui.Size.ToString
+  fullName: ImGui.Size.ToString
+  nameWithType: Size.ToString
+- uid: ImGui.Size.Width
+  name: Width
+  href: api/ImGui.Size.html#ImGui_Size_Width
+  commentId: P:ImGui.Size.Width
+  fullName: ImGui.Size.Width
+  nameWithType: Size.Width
+- uid: ImGui.Size.Width*
+  name: Width
+  href: api/ImGui.Size.html#ImGui_Size_Width_
+  commentId: Overload:ImGui.Size.Width
+  fullName: ImGui.Size.Width
+  nameWithType: Size.Width
+- uid: ImGui.Size.Zero
+  name: Zero
+  href: api/ImGui.Size.html#ImGui_Size_Zero
+  commentId: P:ImGui.Size.Zero
+  fullName: ImGui.Size.Zero
+  nameWithType: Size.Zero
+- uid: ImGui.Size.Zero*
+  name: Zero
+  href: api/ImGui.Size.html#ImGui_Size_Zero_
+  commentId: Overload:ImGui.Size.Zero
+  fullName: ImGui.Size.Zero
+  nameWithType: Size.Zero
+- uid: ImGui.Vector
+  name: Vector
+  href: api/ImGui.Vector.html
+  commentId: T:ImGui.Vector
+  fullName: ImGui.Vector
+  nameWithType: Vector
+- uid: ImGui.Vector.#ctor(System.Double,System.Double)
+  name: Vector(Double, Double)
+  href: api/ImGui.Vector.html#ImGui_Vector__ctor_System_Double_System_Double_
+  commentId: M:ImGui.Vector.#ctor(System.Double,System.Double)
+  fullName: ImGui.Vector.Vector(System.Double, System.Double)
+  nameWithType: Vector.Vector(Double, Double)
+- uid: ImGui.Vector.#ctor*
+  name: Vector
+  href: api/ImGui.Vector.html#ImGui_Vector__ctor_
+  commentId: Overload:ImGui.Vector.#ctor
+  fullName: ImGui.Vector.Vector
+  nameWithType: Vector.Vector
+- uid: ImGui.Vector.Add(ImGui.Vector,ImGui.Point)
+  name: Add(Vector, Point)
+  href: api/ImGui.Vector.html#ImGui_Vector_Add_ImGui_Vector_ImGui_Point_
+  commentId: M:ImGui.Vector.Add(ImGui.Vector,ImGui.Point)
+  fullName: ImGui.Vector.Add(ImGui.Vector, ImGui.Point)
+  nameWithType: Vector.Add(Vector, Point)
+- uid: ImGui.Vector.Add(ImGui.Vector,ImGui.Vector)
+  name: Add(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_Add_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.Add(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Add(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Add(Vector, Vector)
+- uid: ImGui.Vector.Add*
+  name: Add
+  href: api/ImGui.Vector.html#ImGui_Vector_Add_
+  commentId: Overload:ImGui.Vector.Add
+  fullName: ImGui.Vector.Add
+  nameWithType: Vector.Add
+- uid: ImGui.Vector.AngleBetween(ImGui.Vector,ImGui.Vector)
+  name: AngleBetween(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_AngleBetween_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.AngleBetween(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.AngleBetween(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.AngleBetween(Vector, Vector)
+- uid: ImGui.Vector.AngleBetween*
+  name: AngleBetween
+  href: api/ImGui.Vector.html#ImGui_Vector_AngleBetween_
+  commentId: Overload:ImGui.Vector.AngleBetween
+  fullName: ImGui.Vector.AngleBetween
+  nameWithType: Vector.AngleBetween
+- uid: ImGui.Vector.CrossProduct(ImGui.Vector,ImGui.Vector)
+  name: CrossProduct(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_CrossProduct_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.CrossProduct(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.CrossProduct(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.CrossProduct(Vector, Vector)
+- uid: ImGui.Vector.CrossProduct*
+  name: CrossProduct
+  href: api/ImGui.Vector.html#ImGui_Vector_CrossProduct_
+  commentId: Overload:ImGui.Vector.CrossProduct
+  fullName: ImGui.Vector.CrossProduct
+  nameWithType: Vector.CrossProduct
+- uid: ImGui.Vector.Determinant(ImGui.Vector,ImGui.Vector)
+  name: Determinant(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_Determinant_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.Determinant(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Determinant(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Determinant(Vector, Vector)
+- uid: ImGui.Vector.Determinant*
+  name: Determinant
+  href: api/ImGui.Vector.html#ImGui_Vector_Determinant_
+  commentId: Overload:ImGui.Vector.Determinant
+  fullName: ImGui.Vector.Determinant
+  nameWithType: Vector.Determinant
+- uid: ImGui.Vector.Divide(ImGui.Vector,System.Double)
+  name: Divide(Vector, Double)
+  href: api/ImGui.Vector.html#ImGui_Vector_Divide_ImGui_Vector_System_Double_
+  commentId: M:ImGui.Vector.Divide(ImGui.Vector,System.Double)
+  fullName: ImGui.Vector.Divide(ImGui.Vector, System.Double)
+  nameWithType: Vector.Divide(Vector, Double)
+- uid: ImGui.Vector.Divide*
+  name: Divide
+  href: api/ImGui.Vector.html#ImGui_Vector_Divide_
+  commentId: Overload:ImGui.Vector.Divide
+  fullName: ImGui.Vector.Divide
+  nameWithType: Vector.Divide
+- uid: ImGui.Vector.Equals(ImGui.Vector)
+  name: Equals(Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_Equals_ImGui_Vector_
+  commentId: M:ImGui.Vector.Equals(ImGui.Vector)
+  fullName: ImGui.Vector.Equals(ImGui.Vector)
+  nameWithType: Vector.Equals(Vector)
+- uid: ImGui.Vector.Equals(ImGui.Vector,ImGui.Vector)
+  name: Equals(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_Equals_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.Equals(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Equals(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Equals(Vector, Vector)
+- uid: ImGui.Vector.Equals(System.Object)
+  name: Equals(Object)
+  href: api/ImGui.Vector.html#ImGui_Vector_Equals_System_Object_
+  commentId: M:ImGui.Vector.Equals(System.Object)
+  fullName: ImGui.Vector.Equals(System.Object)
+  nameWithType: Vector.Equals(Object)
+- uid: ImGui.Vector.Equals*
+  name: Equals
+  href: api/ImGui.Vector.html#ImGui_Vector_Equals_
+  commentId: Overload:ImGui.Vector.Equals
+  fullName: ImGui.Vector.Equals
+  nameWithType: Vector.Equals
+- uid: ImGui.Vector.GetHashCode
+  name: GetHashCode()
+  href: api/ImGui.Vector.html#ImGui_Vector_GetHashCode
+  commentId: M:ImGui.Vector.GetHashCode
+  fullName: ImGui.Vector.GetHashCode()
+  nameWithType: Vector.GetHashCode()
+- uid: ImGui.Vector.GetHashCode*
+  name: GetHashCode
+  href: api/ImGui.Vector.html#ImGui_Vector_GetHashCode_
+  commentId: Overload:ImGui.Vector.GetHashCode
+  fullName: ImGui.Vector.GetHashCode
+  nameWithType: Vector.GetHashCode
+- uid: ImGui.Vector.Length
+  name: Length
+  href: api/ImGui.Vector.html#ImGui_Vector_Length
+  commentId: P:ImGui.Vector.Length
+  fullName: ImGui.Vector.Length
+  nameWithType: Vector.Length
+- uid: ImGui.Vector.Length*
+  name: Length
+  href: api/ImGui.Vector.html#ImGui_Vector_Length_
+  commentId: Overload:ImGui.Vector.Length
+  fullName: ImGui.Vector.Length
+  nameWithType: Vector.Length
+- uid: ImGui.Vector.LengthSquared
+  name: LengthSquared
+  href: api/ImGui.Vector.html#ImGui_Vector_LengthSquared
+  commentId: P:ImGui.Vector.LengthSquared
+  fullName: ImGui.Vector.LengthSquared
+  nameWithType: Vector.LengthSquared
+- uid: ImGui.Vector.LengthSquared*
+  name: LengthSquared
+  href: api/ImGui.Vector.html#ImGui_Vector_LengthSquared_
+  commentId: Overload:ImGui.Vector.LengthSquared
+  fullName: ImGui.Vector.LengthSquared
+  nameWithType: Vector.LengthSquared
+- uid: ImGui.Vector.Multiply(ImGui.Vector,ImGui.Vector)
+  name: Multiply(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_Multiply_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.Multiply(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Multiply(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Multiply(Vector, Vector)
+- uid: ImGui.Vector.Multiply(ImGui.Vector,System.Double)
+  name: Multiply(Vector, Double)
+  href: api/ImGui.Vector.html#ImGui_Vector_Multiply_ImGui_Vector_System_Double_
+  commentId: M:ImGui.Vector.Multiply(ImGui.Vector,System.Double)
+  fullName: ImGui.Vector.Multiply(ImGui.Vector, System.Double)
+  nameWithType: Vector.Multiply(Vector, Double)
+- uid: ImGui.Vector.Multiply(System.Double,ImGui.Vector)
+  name: Multiply(Double, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_Multiply_System_Double_ImGui_Vector_
+  commentId: M:ImGui.Vector.Multiply(System.Double,ImGui.Vector)
+  fullName: ImGui.Vector.Multiply(System.Double, ImGui.Vector)
+  nameWithType: Vector.Multiply(Double, Vector)
+- uid: ImGui.Vector.Multiply*
+  name: Multiply
+  href: api/ImGui.Vector.html#ImGui_Vector_Multiply_
+  commentId: Overload:ImGui.Vector.Multiply
+  fullName: ImGui.Vector.Multiply
+  nameWithType: Vector.Multiply
+- uid: ImGui.Vector.Negate
+  name: Negate()
+  href: api/ImGui.Vector.html#ImGui_Vector_Negate
+  commentId: M:ImGui.Vector.Negate
+  fullName: ImGui.Vector.Negate()
+  nameWithType: Vector.Negate()
+- uid: ImGui.Vector.Negate*
+  name: Negate
+  href: api/ImGui.Vector.html#ImGui_Vector_Negate_
+  commentId: Overload:ImGui.Vector.Negate
+  fullName: ImGui.Vector.Negate
+  nameWithType: Vector.Negate
+- uid: ImGui.Vector.Normalize
+  name: Normalize()
+  href: api/ImGui.Vector.html#ImGui_Vector_Normalize
+  commentId: M:ImGui.Vector.Normalize
+  fullName: ImGui.Vector.Normalize()
+  nameWithType: Vector.Normalize()
+- uid: ImGui.Vector.Normalize*
+  name: Normalize
+  href: api/ImGui.Vector.html#ImGui_Vector_Normalize_
+  commentId: Overload:ImGui.Vector.Normalize
+  fullName: ImGui.Vector.Normalize
+  nameWithType: Vector.Normalize
+- uid: ImGui.Vector.op_Addition(ImGui.Vector,ImGui.Point)
+  name: Addition(Vector, Point)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Addition_ImGui_Vector_ImGui_Point_
+  commentId: M:ImGui.Vector.op_Addition(ImGui.Vector,ImGui.Point)
+  fullName: ImGui.Vector.Addition(ImGui.Vector, ImGui.Point)
+  nameWithType: Vector.Addition(Vector, Point)
+- uid: ImGui.Vector.op_Addition(ImGui.Vector,ImGui.Vector)
+  name: Addition(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Addition_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.op_Addition(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Addition(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Addition(Vector, Vector)
+- uid: ImGui.Vector.op_Addition*
+  name: Addition
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Addition_
+  commentId: Overload:ImGui.Vector.op_Addition
+  fullName: ImGui.Vector.Addition
+  nameWithType: Vector.Addition
+- uid: ImGui.Vector.op_Division(ImGui.Vector,System.Double)
+  name: Division(Vector, Double)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Division_ImGui_Vector_System_Double_
+  commentId: M:ImGui.Vector.op_Division(ImGui.Vector,System.Double)
+  fullName: ImGui.Vector.Division(ImGui.Vector, System.Double)
+  nameWithType: Vector.Division(Vector, Double)
+- uid: ImGui.Vector.op_Division*
+  name: Division
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Division_
+  commentId: Overload:ImGui.Vector.op_Division
+  fullName: ImGui.Vector.Division
+  nameWithType: Vector.Division
+- uid: ImGui.Vector.op_Equality(ImGui.Vector,ImGui.Vector)
+  name: Equality(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Equality_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.op_Equality(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Equality(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Equality(Vector, Vector)
+- uid: ImGui.Vector.op_Equality*
+  name: Equality
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Equality_
+  commentId: Overload:ImGui.Vector.op_Equality
+  fullName: ImGui.Vector.Equality
+  nameWithType: Vector.Equality
+- uid: ImGui.Vector.op_Explicit(ImGui.Vector)~ImGui.Point
+  name: Explicit(Vector to Point)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Explicit_ImGui_Vector__ImGui_Point
+  commentId: M:ImGui.Vector.op_Explicit(ImGui.Vector)~ImGui.Point
+  name.vb: Narrowing(Vector to Point)
+  fullName: ImGui.Vector.Explicit(ImGui.Vector to ImGui.Point)
+  fullName.vb: ImGui.Vector.Narrowing(ImGui.Vector to ImGui.Point)
+  nameWithType: Vector.Explicit(Vector to Point)
+  nameWithType.vb: Narrowing(Vector to Point)
+- uid: ImGui.Vector.op_Explicit(ImGui.Vector)~ImGui.Size
+  name: Explicit(Vector to Size)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Explicit_ImGui_Vector__ImGui_Size
+  commentId: M:ImGui.Vector.op_Explicit(ImGui.Vector)~ImGui.Size
+  name.vb: Narrowing(Vector to Size)
+  fullName: ImGui.Vector.Explicit(ImGui.Vector to ImGui.Size)
+  fullName.vb: ImGui.Vector.Narrowing(ImGui.Vector to ImGui.Size)
+  nameWithType: Vector.Explicit(Vector to Size)
+  nameWithType.vb: Narrowing(Vector to Size)
+- uid: ImGui.Vector.op_Explicit*
+  name: Explicit
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Explicit_
+  commentId: Overload:ImGui.Vector.op_Explicit
+  name.vb: Narrowing
+  fullName: ImGui.Vector.Explicit
+  fullName.vb: ImGui.Vector.Narrowing
+  nameWithType: Vector.Explicit
+  nameWithType.vb: Vector.Narrowing
+- uid: ImGui.Vector.op_Inequality(ImGui.Vector,ImGui.Vector)
+  name: Inequality(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Inequality_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.op_Inequality(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Inequality(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Inequality(Vector, Vector)
+- uid: ImGui.Vector.op_Inequality*
+  name: Inequality
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Inequality_
+  commentId: Overload:ImGui.Vector.op_Inequality
+  fullName: ImGui.Vector.Inequality
+  nameWithType: Vector.Inequality
+- uid: ImGui.Vector.op_Multiply(ImGui.Vector,ImGui.Vector)
+  name: Multiply(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Multiply_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.op_Multiply(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Multiply(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Multiply(Vector, Vector)
+- uid: ImGui.Vector.op_Multiply(ImGui.Vector,System.Double)
+  name: Multiply(Vector, Double)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Multiply_ImGui_Vector_System_Double_
+  commentId: M:ImGui.Vector.op_Multiply(ImGui.Vector,System.Double)
+  fullName: ImGui.Vector.Multiply(ImGui.Vector, System.Double)
+  nameWithType: Vector.Multiply(Vector, Double)
+- uid: ImGui.Vector.op_Multiply(System.Double,ImGui.Vector)
+  name: Multiply(Double, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Multiply_System_Double_ImGui_Vector_
+  commentId: M:ImGui.Vector.op_Multiply(System.Double,ImGui.Vector)
+  fullName: ImGui.Vector.Multiply(System.Double, ImGui.Vector)
+  nameWithType: Vector.Multiply(Double, Vector)
+- uid: ImGui.Vector.op_Multiply*
+  name: Multiply
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Multiply_
+  commentId: Overload:ImGui.Vector.op_Multiply
+  fullName: ImGui.Vector.Multiply
+  nameWithType: Vector.Multiply
+- uid: ImGui.Vector.op_Subtraction(ImGui.Vector,ImGui.Vector)
+  name: Subtraction(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Subtraction_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.op_Subtraction(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Subtraction(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Subtraction(Vector, Vector)
+- uid: ImGui.Vector.op_Subtraction*
+  name: Subtraction
+  href: api/ImGui.Vector.html#ImGui_Vector_op_Subtraction_
+  commentId: Overload:ImGui.Vector.op_Subtraction
+  fullName: ImGui.Vector.Subtraction
+  nameWithType: Vector.Subtraction
+- uid: ImGui.Vector.op_UnaryNegation(ImGui.Vector)
+  name: UnaryNegation(Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_op_UnaryNegation_ImGui_Vector_
+  commentId: M:ImGui.Vector.op_UnaryNegation(ImGui.Vector)
+  fullName: ImGui.Vector.UnaryNegation(ImGui.Vector)
+  nameWithType: Vector.UnaryNegation(Vector)
+- uid: ImGui.Vector.op_UnaryNegation*
+  name: UnaryNegation
+  href: api/ImGui.Vector.html#ImGui_Vector_op_UnaryNegation_
+  commentId: Overload:ImGui.Vector.op_UnaryNegation
+  fullName: ImGui.Vector.UnaryNegation
+  nameWithType: Vector.UnaryNegation
+- uid: ImGui.Vector.Parse(System.String)
+  name: Parse(String)
+  href: api/ImGui.Vector.html#ImGui_Vector_Parse_System_String_
+  commentId: M:ImGui.Vector.Parse(System.String)
+  fullName: ImGui.Vector.Parse(System.String)
+  nameWithType: Vector.Parse(String)
+- uid: ImGui.Vector.Parse*
+  name: Parse
+  href: api/ImGui.Vector.html#ImGui_Vector_Parse_
+  commentId: Overload:ImGui.Vector.Parse
+  fullName: ImGui.Vector.Parse
+  nameWithType: Vector.Parse
+- uid: ImGui.Vector.Subtract(ImGui.Vector,ImGui.Vector)
+  name: Subtract(Vector, Vector)
+  href: api/ImGui.Vector.html#ImGui_Vector_Subtract_ImGui_Vector_ImGui_Vector_
+  commentId: M:ImGui.Vector.Subtract(ImGui.Vector,ImGui.Vector)
+  fullName: ImGui.Vector.Subtract(ImGui.Vector, ImGui.Vector)
+  nameWithType: Vector.Subtract(Vector, Vector)
+- uid: ImGui.Vector.Subtract*
+  name: Subtract
+  href: api/ImGui.Vector.html#ImGui_Vector_Subtract_
+  commentId: Overload:ImGui.Vector.Subtract
+  fullName: ImGui.Vector.Subtract
+  nameWithType: Vector.Subtract
+- uid: ImGui.Vector.System#IFormattable#ToString(System.String,System.IFormatProvider)
+  name: IFormattable.ToString(String, IFormatProvider)
+  href: api/ImGui.Vector.html#ImGui_Vector_System_IFormattable_ToString_System_String_System_IFormatProvider_
+  commentId: M:ImGui.Vector.System#IFormattable#ToString(System.String,System.IFormatProvider)
+  name.vb: System.IFormattable.ToString(String, IFormatProvider)
+  fullName: ImGui.Vector.System.IFormattable.ToString(System.String, System.IFormatProvider)
+  nameWithType: Vector.IFormattable.ToString(String, IFormatProvider)
+  nameWithType.vb: System.IFormattable.ToString(String, IFormatProvider)
+- uid: ImGui.Vector.System#IFormattable#ToString*
+  name: IFormattable.ToString
+  href: api/ImGui.Vector.html#ImGui_Vector_System_IFormattable_ToString_
+  commentId: Overload:ImGui.Vector.System#IFormattable#ToString
+  name.vb: System.IFormattable.ToString
+  fullName: ImGui.Vector.System.IFormattable.ToString
+  nameWithType: Vector.IFormattable.ToString
+  nameWithType.vb: Vector.System.IFormattable.ToString
+- uid: ImGui.Vector.ToString
+  name: ToString()
+  href: api/ImGui.Vector.html#ImGui_Vector_ToString
+  commentId: M:ImGui.Vector.ToString
+  fullName: ImGui.Vector.ToString()
+  nameWithType: Vector.ToString()
+- uid: ImGui.Vector.ToString(System.IFormatProvider)
+  name: ToString(IFormatProvider)
+  href: api/ImGui.Vector.html#ImGui_Vector_ToString_System_IFormatProvider_
+  commentId: M:ImGui.Vector.ToString(System.IFormatProvider)
+  fullName: ImGui.Vector.ToString(System.IFormatProvider)
+  nameWithType: Vector.ToString(IFormatProvider)
+- uid: ImGui.Vector.ToString*
+  name: ToString
+  href: api/ImGui.Vector.html#ImGui_Vector_ToString_
+  commentId: Overload:ImGui.Vector.ToString
+  fullName: ImGui.Vector.ToString
+  nameWithType: Vector.ToString
+- uid: ImGui.Vector.X
+  name: X
+  href: api/ImGui.Vector.html#ImGui_Vector_X
+  commentId: P:ImGui.Vector.X
+  fullName: ImGui.Vector.X
+  nameWithType: Vector.X
+- uid: ImGui.Vector.X*
+  name: X
+  href: api/ImGui.Vector.html#ImGui_Vector_X_
+  commentId: Overload:ImGui.Vector.X
+  fullName: ImGui.Vector.X
+  nameWithType: Vector.X
+- uid: ImGui.Vector.Y
+  name: Y
+  href: api/ImGui.Vector.html#ImGui_Vector_Y
+  commentId: P:ImGui.Vector.Y
+  fullName: ImGui.Vector.Y
+  nameWithType: Vector.Y
+- uid: ImGui.Vector.Y*
+  name: Y
+  href: api/ImGui.Vector.html#ImGui_Vector_Y_
+  commentId: Overload:ImGui.Vector.Y
+  fullName: ImGui.Vector.Y
+  nameWithType: Vector.Y
+- uid: ImGui.Vector.Zero
+  name: Zero
+  href: api/ImGui.Vector.html#ImGui_Vector_Zero
+  commentId: F:ImGui.Vector.Zero
+  fullName: ImGui.Vector.Zero
+  nameWithType: Vector.Zero
