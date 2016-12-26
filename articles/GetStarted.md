@@ -55,4 +55,4 @@ In MainForm.cs, override method OnGui:
 
 Result:
 
-![Hello World Preview](/images/hello_world_preview.png)
+![Hello World Preview](../images/hello_world_preview.png)
