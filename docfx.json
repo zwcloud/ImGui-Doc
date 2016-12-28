@@ -48,8 +48,7 @@
                     "**/*.gif"
                 ],
                 "exclude": [
-                    "obj/**",
-                    "_site/**"
+                    "obj/**"
                 ]
             }
         ],
@@ -59,8 +58,7 @@
                     "apidoc/**.md"
                 ],
                 "exclude": [
-                    "obj/**",
-                    "_site/**"
+                    "obj/**"
                 ]
             }
         ],

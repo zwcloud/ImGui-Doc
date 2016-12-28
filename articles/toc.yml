@@ -1,6 +1,6 @@
-- name: Basic
-  items:
-  - name: Road Map
-    topicHref: RoadMap.md
-  - name: Get Started
-    topicHref: GetStarted.md
+- name: Overview
+  href: Overview.md
+- name: Road Map
+  href: RoadMap.md
+- name: Get Started
+  href: GetStarted.md
