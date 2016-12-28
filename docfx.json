@@ -11,7 +11,7 @@
                         "**/bin/**",
                         "_site/**"
                     ],
-                    "src": "../ImGui/"
+                    "src": "../../ImGui/ImGui/"
                 }
             ],
             "dest": "api"
@@ -64,7 +64,7 @@
                 ]
             }
         ],
-        "dest": "_site",
+        "dest": "../gh-pages",
         "globalMetadata": {
 	        "_appTitle" : "ImGui Doc",
 			"_appLogoPath" : "images/imgui_logo.svg",

@@ -1,5 +1,6 @@
 - name: Docs
-  href: articles/
+  tocHref: articles/toc.yml
+  topicHref: articles/GetStarted.md
 - name: APIs
   tocHref: api/toc.yml
   topicHref: api/index.md
