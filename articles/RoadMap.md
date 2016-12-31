@@ -34,23 +34,15 @@
 *layout functions used to layout controls and containers*
 - ✅grid (recursively)
 
-
 # Platform Dependent Implementation
 *some platform-dependent Implementations*
-
-## Window
-*window creation and management*
-- ✅Windows: Win32 API
-
-## Input
-*input device management*
-### Windows
-- ✅Keyboard: Win32 API
-- ✅Mouse: Win32 API
-- 🔲TouchPen: Win32 API or Wacom only
-
-## Rendering
-- ✅Windows: OpenGL 4
-
-## Text
-- ✅Windows: DirectWrite
+- Window (window creation and management)
+    + ✅Windows: Win32 API    
+- Input (input device management)
+    + ✅Windows/Keyboard: Win32 API
+    + ✅Windows/Mouse: Win32 API
+    + 🔲Windows/TouchPen: Win32 API or Wacom only    
+- Rendering
+    + ✅Windows: OpenGL 4    
+- Text
+    + ✅Windows: DirectWrite
