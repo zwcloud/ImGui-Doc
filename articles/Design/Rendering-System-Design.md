@@ -1,6 +1,6 @@
 ## Infrastructure
 
-Threre is four levels of rendering layers from top to base:
+There are four levels of rendering layers from top to base:
 
 * Layer 1: __control__
 * Layer 2: __render tree__
@@ -14,4 +14,15 @@ Threre is four levels of rendering layers from top to base:
     * cairo
     * other platform specific rendering API like Direct2D and Quartz
 
+## Implementation Thoughts
 
+* Brush: fill shapes with colors, images and patterns. It should be implemented in layer 2.
+* Pen: draw outlines of a shape with colors, images and patterns. It should be implemented in layer 2.
+
+__examples__
+
+* Button  
+  ![button](img/button.svg)
+
+* Slider  
+  ![slider](img/slider.svg)
