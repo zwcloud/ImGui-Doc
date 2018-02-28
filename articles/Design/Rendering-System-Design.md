@@ -16,6 +16,8 @@ There are four levels of rendering layers from top to base:
 
 ## Implementation Thoughts
 
+__concepts__
+
 * Brush: fill shapes with colors, images and patterns. It should be implemented in layer 2.
 * Pen: draw outlines of a shape with colors, images and patterns. It should be implemented in layer 2.
 
@@ -31,3 +33,21 @@ __function of a render-tree node__
 
 1. a visual data container: position(rectangle) and style
 2. a layout unit
+
+So, the current implementaion should be rewritten.
+
+__implementaion changes__
+
+* Current implementation:
+
+	1. modifiy the style on the fly
+	2. create layout unit on the fly and reuse it when the layout is not changed
+
+* Future implementation based on render-tree:
+
+	We will modify the render-tree structure and nodes when calling control methods like `GUILayout.Button`:
+
+	1. modify the style of a sub-tree(a control), of the render-tree
+	2. associate the layout engine to the render-tree structure
+
+	So, we need to refactor all control code and the layout engine, and finally the rendering pipeline.
