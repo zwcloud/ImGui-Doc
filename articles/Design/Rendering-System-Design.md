@@ -26,3 +26,8 @@ __examples__
 
 * Slider  
   ![slider](img/slider.svg)
+
+__function of a render-tree node__
+
+1. a visual data container: position(rectangle) and style
+2. a layout unit
