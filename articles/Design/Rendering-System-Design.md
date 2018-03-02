@@ -41,13 +41,14 @@ __implementaion changes__
 * Current implementation:
 
 	1. modifiy the style on the fly
-	2. create layout unit on the fly and reuse it when the layout is not changed
+	2. create layout unit on the fly; reuse it when the layout is not changed; recreate all layout units when adding new layout unit or a layout unit changed.
 
 * Future implementation based on render-tree:
 
-	We will modify the render-tree structure and nodes when calling control methods like `GUILayout.Button`:
+	When calling control methods like `GUILayout.Button` and `GUILayout.BeginHorizontal`:
 
-	1. modify the style of a sub-tree(a control), of the render-tree
-	2. associate the layout engine to the render-tree structure
+	1. modify the structure of the render-tree: add/remove a node, move a sub-tree around and so on
+	2. modify the style of a sub-tree(a control)
+	3. get the layout from layout engine based on the render-tree
 
 	So, we need to refactor all control code and the layout engine, and finally the rendering pipeline.
