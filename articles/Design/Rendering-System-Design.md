@@ -52,3 +52,20 @@ __implementaion changes__
 	3. get the layout from layout engine based on the render-tree
 
 	So, we need to refactor all control code and the layout engine, and finally the rendering pipeline.
+
+__detail: re-layout trigger__
+
+* What triggers a re-layout in the render tree?
+
+	1. Add a new control.
+	2. Remove an old control.
+	3. Change the style of a control and it changes the position and/or size of the control.
+    
+	Causes: User action, animation and programmatic action.
+
+* Important points
+
+    - Setup a queue of the changes that is required.
+	- Combine changes that can be combined.
+
+reference: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/ (What triggers a reflow or a repaint)
