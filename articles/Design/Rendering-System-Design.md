@@ -4,7 +4,7 @@ There are four levels of rendering layers from top to base:
 
 * Layer 1: __control__
 * Layer 2: __render tree__
-    Each control corresponds with a sub-tree in the render tree. Each node on the render tree corresponds to a primitive.
+    Each control corresponds with a sub-tree in the render tree. Each node on the render tree corresponds to a primitive. Style should be computed at this layer and applied to the primitive.
 * Layer 3: __primitive__
     The minimal abstract rendering unit: line-segments, rectangles, triangles, circles, polygon, ployline, arcs, bezier-curves, quadratic-curves and so on.
 * Layer 4: __basic rendering API (interface)__
@@ -65,7 +65,7 @@ __detail: re-layout trigger__
 
 * Important points
 
-    - Setup a queue of the changes that is required.
+    - Setup a queue of the changes that are required.
 	- Combine changes that can be combined.
 
 reference: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/ (What triggers a reflow or a repaint)
