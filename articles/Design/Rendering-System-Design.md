@@ -69,3 +69,14 @@ __detail: re-layout trigger__
 	- Combine changes that can be combined.
 
 reference: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/ (What triggers a reflow or a repaint)
+
+__detail: render what__
+
+* When implementing layer 4 - basic rendering API, what exactly should we *render*?*
+
+For example, for builtin OpenGL-based rendering API implementation:
+
+	[final output] front buffer => back buffer => mesh => primitives
+
+So the main function of *Path-based rendering API on top of OpenGL* is to convert primitives to meshes.
+ 
