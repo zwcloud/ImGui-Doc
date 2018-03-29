@@ -14,7 +14,7 @@ There are four levels of rendering layers from top to base:
     * cairo
     * other platform specific rendering API like Direct2D and Quartz
 
-## Implementation Thoughts
+## Implementation Thoughts (General)
 
 __concepts__
 

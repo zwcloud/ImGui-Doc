@@ -22,8 +22,12 @@ __How to create in an *immediate* way?__
 In retained mode GUI, nodes are created, updated and deleted when an event is triggered. 
 But in an immediate mode GUI, the controls are always being updating and we do not use event to handle user input. 
 
-Let's take the creation of a node when the application starts up for example. If we put the code of creating nodes in side the control method, 
-we will adding duplcated nodes to the render-tree every time when the method is called. And that is not expected.
+Let's take the creation of a node when the application starts up for example. If we put the code of creating nodes inside the control method, 
+we will adding duplcated nodes to the render-tree every time when the method is called. And that is not the expected behavior.
 What we need is to create only once when the application starts up.
 
-The first solution to this come to my mind is to use a *dirty flag*.
+The first solution to this come to my mind is to use a *dirty flag*. It just works. ImGui will use this approach for now. I think there are some more flexible solutions.
+
+__When to update?__
+
+__How to determine whether a node need to up re-draw/re-layout?__ 
