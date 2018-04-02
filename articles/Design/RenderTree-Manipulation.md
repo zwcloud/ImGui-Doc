@@ -30,4 +30,19 @@ The first solution to this come to my mind is to use a *dirty flag*. It just wor
 
 __When to update?__
 
+Every frame we should check each node if it is `Dirty`. And if it is, we update, namely re-draw/re-layout it.
+
 __How to determine whether a node need to up re-draw/re-layout?__ 
+
+Manually in the control update.
+
+Two steps:
+
+1. Do any action that influences the looking or layout. See *What triggers a re-layout in the render tree?*.
+2. Set the node dirty for drawing or layout.
+3. Re-draw or re-layout.
+
+__How to re-draw?__
+
+Let's take `BuildInPrimitiveRenderer` for example, this is an OpenGL based renderer. Graphic data is represented as mesh.
+
