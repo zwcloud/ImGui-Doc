@@ -44,5 +44,13 @@ Two steps:
 
 __How to re-draw?__
 
-Let's take `BuildInPrimitiveRenderer` for example, this is an OpenGL based renderer. Graphic data is represented as mesh.
+Let's take `BuildInPrimitiveRenderer` on Windows for example, this is an OpenGL based renderer. Graphic data is represented as mesh.
 
+Each node's primitive is rendered into the mesh and then rendered by `Win32OpenGLRenderer`. Only part of the mesh corresponds to the primitive. So if a node changes its primitive, the corresponding part of the mesh should be updated/recreated.
+
+We will update mesh like this:
+
+1. A node is changed or deleted and becomes dirty.
+2. The rendering loop detects the node is dirty, so it redraw the node's primitive into a mesh taken from the mesh pool. Then the mesh is added to a linked list called mesh list.
+3. Clear the previous mesh buffer and append each mesh to the mesh buffer.
+4. The OpenGL renderer renders the mesh buffer.
