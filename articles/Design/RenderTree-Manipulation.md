@@ -46,6 +46,10 @@ __How to re-draw?__
 
 Let's take `BuildInPrimitiveRenderer` on Windows for example, this is an OpenGL based renderer. Graphic data is represented as mesh.
 
+Just come across an article about GPU-accelerated rendering of Chrome: [Accelerated Rendering in Chrome - The Layer Model](https://www.html5rocks.com/en/tutorials/speed/layers/) by Tom Wiltzius. It's better to do some research on how other existing GPU-accelerated renderer functions. A perfect option is webkit. (I have got some kownledge on how it does GPU-based rendering but that's not enough.)
+
+But for now let's just stick to a simplest solution below.
+
 Each node's primitive is rendered into the mesh and then rendered by `Win32OpenGLRenderer`. Only part of the mesh corresponds to the primitive. So if a node changes its primitive, the corresponding part of the mesh should be updated/recreated.
 
 We will update mesh like this:
