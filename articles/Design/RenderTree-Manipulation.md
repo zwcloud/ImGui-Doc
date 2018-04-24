@@ -38,7 +38,7 @@ Manually in the control update.
 
 Two steps:
 
-1. Do any action that influences the looking or layout. See *What triggers a re-layout in the render tree?*.
+1. Do any action that influences the looking or layout. See [*What triggers a re-layout in the render tree?*](https://github.com/zwcloud/ImGui.Docs/blob/master/articles/Design/RenderTree-Manipulation.md#implementation-thoughts).
 2. Set the node dirty for drawing or layout.
 3. Re-draw or re-layout.
 
