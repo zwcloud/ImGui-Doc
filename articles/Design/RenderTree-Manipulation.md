@@ -61,10 +61,12 @@ We will update mesh like this:
 
 __furtherly improve current rendering pipeline__
 
-Just luckily came across an article about firefox's new WebRenderer: [The whole web at maximum FPS: How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/).
+Just luckily came across an article about FireFox's new WebRenderer: [The whole web at maximum FPS: How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/).
 
 ![How WebRender works with the GPU](https://2r4s9p1yi1fa2jd7j43zph8r-wpengine.netdna-ssl.com/files/2017/10/31.png)
 
 It is a very good reference for how should ImGui implement the render-tree and OpenGL based rendering backend.
 
 See also greggman's [Rethinking UI APIs](https://games.greggman.com/game/rethinking-ui-apis/).
+
+And another article about the quantum CSS engine: [Inside a super fast CSS engine: Quantum CSS (aka Stylo)](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/). The most important and valuable part to us in it, is *Speed up restyles with the Rule Tree*.
