@@ -28,9 +28,11 @@ What we need is to create only once when the application starts up.
 
 The first solution to this come to my mind is to use a *dirty flag*. It just works. ImGui will use this approach for now. I think there are some more flexible solutions.
 
+After thinking and trying for a month, *dirty flags* turn out not practical in an immediate mode UI since there is no `event` in immediate mode. We will use the conception `hot` instead. So what is `hot`? A control is hot when it has the focus, and then all its nodes is also hot.
+
 __When to update?__
 
-Every frame we should check each node if it is `Dirty`. And if it is, we update, namely re-draw/re-layout it.
+Every frame we should check each node if it is part of a `hot` control. And if it is, we update, namely re-draw/re-layout it.
 
 __How to determine whether a node need to up re-draw/re-layout?__ 
 
@@ -39,7 +41,7 @@ Manually in the control update.
 Two steps:
 
 1. Do any action that influences the looking or layout. See [*What triggers a re-layout in the render tree?*](https://github.com/zwcloud/ImGui.Docs/blob/master/articles/Design/RenderTree-Manipulation.md#implementation-thoughts).
-2. Set the node dirty for drawing or layout.
+2. Set the control hot.
 3. Re-draw or re-layout.
 
 __How to re-draw?__
@@ -54,8 +56,8 @@ Each node's primitive is rendered into the mesh and then rendered by `Win32OpenG
 
 We will update mesh like this:
 
-1. A node is changed or deleted and becomes dirty.
-2. The rendering loop detects the node is dirty, so it redraw the node's primitive into a mesh taken from the mesh pool. Then the mesh is added to a linked list called mesh list.
+1. A node is to be updated because it is externally set to hot.
+2. The rendering loop detects the node is hot, so it redraw the node's primitive into a mesh taken from the mesh pool. Then the mesh is added to a linked list called mesh list.
 3. Clear the previous mesh buffer and append each mesh to the mesh buffer.
 4. The OpenGL renderer renders the mesh buffer.
 
@@ -70,3 +72,10 @@ It is a very good reference for how should ImGui implement the render-tree and O
 See also greggman's [Rethinking UI APIs](https://games.greggman.com/game/rethinking-ui-apis/).
 
 And another article about the quantum CSS engine: [Inside a super fast CSS engine: Quantum CSS (aka Stylo)](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/). The most important and valuable part to us in it, is *Speed up restyles with the Rule Tree*.
+
+__basic node properties__
+
+Node:
+
+* Id: the unique identifier. It's some kind of hashcode. Not just 1, 2, 3,... Maybe GUID is a better choice.
+* StrId: an extra unique identifier. It's a hunman-readable text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic.
