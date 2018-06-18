@@ -28,7 +28,21 @@ What we need is to create only once when the application starts up.
 
 The first solution to this come to my mind is to use a *dirty flag*. It just works. ImGui will use this approach for now. I think there are some more flexible solutions.
 
-After thinking and trying for a month, *dirty flags* turn out not practical in an immediate mode UI since there is no `event` in immediate mode. We will use the conception `hot` instead. So what is `hot`? A control is hot when it has the focus, and then all its nodes is also hot.
+After thinking and trying for a month, *dirty flags* turn out not practical in an immediate mode UI since there is no `event` in immediate mode. We will use something like the conception `hot` instead. So what is `hot`? A control is hot when it has the focus.
+
+After having implemented render-tree-based rendering, I think that a single hot state is still enough. Some reasons:
+
+* If the application is running on a device that supports multi-touch, then multiple controls could have the focus.
+* "Focus" wiil not suffice when it comes to animation: some controls plays animation, but is not focused.
+
+The state of a render-tree node should be:
+* __normal__
+* __hovered__
+* __hot__
+* __active__
+* __disabled__
+
+(TODO: detailed description about these states)
 
 __When to update?__
 
@@ -78,4 +92,4 @@ __basic node properties__
 Node:
 
 * Id: the unique identifier. It's some kind of hashcode. Not just 1, 2, 3,... Maybe GUID is a better choice.
-* StrId: an extra unique identifier. It's a hunman-readable text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic.
+* StrId: an extra unique identifier. It's a hunman-readable text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic. This should be renamed to "Name", I think.
