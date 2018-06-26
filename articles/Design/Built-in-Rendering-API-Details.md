@@ -21,3 +21,18 @@ a list of text-related objects of different layers:
 3. `TextMesh` => `TextMeshCache`
 
 This should be considered carefully to balance the cache performance and memory occupation.
+
+Here is a list of text properties:
+
+| Property     | TextPrimitive | TextContext | TextMesh |
+|--------------|---------------|-------------|----------|
+| text         |       Y       |      Y      |    Y     |
+| font family  |       Y       |      Y      |    Y     |
+| font size    |       Y       |      Y      |    Y     |
+| font color   |       N       |      N      |    Y     |
+| font style   |       Y       |      Y      |    Y     |
+| font weight  |       Y       |      Y      |    Y     |
+| alignment    |       Y       |      Y      |    Y     |
+| font stretch |      N/A      |     N/A     |   N/A    |
+
+All text properties except font color have influences on `TextPrimitive`, `TextContext` and `TextMesh`. Note font stretch will not be supported since almost all web browsers have decided not to support it.
