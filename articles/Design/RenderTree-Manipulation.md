@@ -91,5 +91,10 @@ __basic node properties__
 
 Node:
 
-* Id: the unique identifier. It's some kind of hashcode. Not just 1, 2, 3,... Maybe GUID is a better choice.
-* StrId: an extra unique identifier. It's a hunman-readable text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic. This should be renamed to "Name", I think.
+* Id: the unique identifier. It's a hashcode of some text. Not just 1, 2, 3,...
+
+	Current Id generation method is fine. Factors that are taken into consideration, when generate an id, are: id stack, text component of the control. Text component of the control is the text directly related to the control, such as the text of a `Label` and the text on a `Button`. The id of the root node of a control is the id of the control.
+
+* Name: an extra unique identifier. It's a hunman-readable text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic.
+
+
