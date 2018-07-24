@@ -91,10 +91,12 @@ __basic node properties__
 
 Node:
 
-* Id: the unique identifier. It's a hashcode of some text. Not just 1, 2, 3,...
+* `Id`: the unique identifier. It's a hashcode of some text. Not just 1, 2, 3,...
 
 	Current Id generation method is fine. Factors that are taken into consideration, when generate an id, are: id stack, text component of the control. Text component of the control is the text directly related to the control, such as the text of a `Label` and the text on a `Button`. The id of the root node of a control is the id of the control.
 
-* Name: an extra unique identifier. It's a hunman-readable text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic.
+* `Name`: an extra unique identifier. It's a hunman-readable text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic.
 
-
+* `StyleModifiers`: an list of style __modifiers__. An `StyleModifier` is an object used to override the default style, like a CSS rule that overrides the default style defined by the web browser.
+	
+	We don't attach a `GUIStyle` to every node because that's not necessary: we only need to know what kind of styles are changed to what for a node when rendering. A dynamic-sized modifier list is a perfect solution. The list can be null or empty, which means the default style is used.
