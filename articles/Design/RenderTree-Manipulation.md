@@ -100,3 +100,17 @@ Node:
 * `StyleModifiers`: an list of style __modifiers__. An `StyleModifier` is an object used to override the default style, like a CSS rule that overrides the default style defined by the web browser.
 	
 	We don't attach a `GUIStyle` to every node because that's not necessary: we only need to know what kind of styles are changed to what for a node when rendering. A dynamic-sized modifier list is a perfect solution. The list can be null or empty, which means the default style is used.
+
+__style__
+
+* Current styling is complete separated from the render-tree:
+
+GUISkin ===have===> StyleModifiers ===applied to===> GUIStyle ===modify===> properties of a Node and its primitive ===rendered with===>Primitive renderers
+														¡ü
+LayoutOptions ===have===> StyleModifiers ===applied to==¡ü
+
+There are three level of style.
+
+1. Skin rules: the default style. `GUISkin`
+2. per-Control instance rules: custom styles. `LayoutOptions` (It should be renamed to `StyleOptions`.)
+3. per-Node rules (not implemented and need further consideration): used internally for custom controls

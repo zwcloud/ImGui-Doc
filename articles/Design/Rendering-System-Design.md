@@ -70,6 +70,8 @@ __detail: re-layout trigger__
 
 reference: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/ (What triggers a reflow or a repaint)
 
+Note ImGui will not repaint conditionally, it repaints every frame.
+
 __detail: render what__
 
 * When implementing layer 4 - basic rendering API, what exactly should we *render*?*
