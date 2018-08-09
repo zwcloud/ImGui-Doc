@@ -16,7 +16,7 @@ There are four levels of rendering layers from top to base:
 
 ## Implementation Thoughts (General)
 
-__concepts__
+### concepts
 
 * Brush: fill shapes with colors, images and patterns. It should be implemented in layer 2.
 * Pen: draw outlines of a shape with colors, images and patterns. It should be implemented in layer 2.
@@ -29,14 +29,14 @@ __examples__
 * Slider  
   ![slider](img/slider.svg)
 
-__function of a render-tree node__
+### function of a render-tree node
 
 1. a visual data container: position(rectangle) and style
 2. a layout unit
 
 So, the current implementaion should be rewritten.
 
-__implementaion changes__
+### implementaion changes
 
 * Current implementation:
 
@@ -72,7 +72,7 @@ reference: http://www.phpied.com/rendering-repaint-reflowrelayout-restyle/ (What
 
 Note ImGui will not repaint conditionally, it repaints every frame.
 
-__detail: render what__
+### detail: render what
 
 * When implementing layer 4 - basic rendering API, what exactly should we *render*?*
 
@@ -82,7 +82,7 @@ For example, for builtin OpenGL-based rendering API implementation:
 
 So the main function of *Path-based rendering API on top of OpenGL* is to convert primitives to meshes.
  
-__important: What is in a text primitive?__
+### important: What is in a text primitive?
 
 There could be two levels of data:
 

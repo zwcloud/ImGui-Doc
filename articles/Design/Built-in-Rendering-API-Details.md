@@ -8,7 +8,7 @@
 
 # Details
 
-__improtant: Text-related caches__
+## improtant: Text-related caches__
 
 It is too expensive to rebuild text meshes for a piece of text with format. We need to cache it and also keep the flexibity to not rebuild too much when a piece of text and its format is changed.
 

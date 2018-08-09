@@ -11,13 +11,13 @@ There are four kind of operations (i.e. CURD):
 
 ## Implementation Thoughts
 
-__When to create?__
+### When to create?
 
 1. When the application starts up, we need to create an initial render-tree hierarchy.
 2. When we need to react to a user action by creating, updating, deleting the control.
 3. When the control logic requests creating, updating, deleting a node or sub-tree.
 
-__How to create in an *immediate* way?__
+### How to create in an *immediate* way?
 
 In retained mode GUI, nodes are created, updated and deleted when an event is triggered. 
 But in an immediate mode GUI, the controls are always being updating and we do not use event to handle user input. 
@@ -44,11 +44,11 @@ The state of a render-tree node should be:
 
 (TODO: detailed description about these states)
 
-__When to update?__
+### When to update?
 
 Every frame we should check each node if it is part of a `hot` control. And if it is, we update, namely re-draw/re-layout it.
 
-__How to determine whether a node need to up re-draw/re-layout?__ 
+### How to determine whether a node need to up re-draw/re-layout?
 
 Manually in the control update.
 
@@ -58,7 +58,7 @@ Two steps:
 2. Set the control hot.
 3. Re-draw or re-layout.
 
-__How to re-draw?__
+### How to re-draw?
 
 Let's take `BuildInPrimitiveRenderer` on Windows for example, this is an OpenGL based renderer. Graphic data is represented as mesh.
 
@@ -75,7 +75,7 @@ We will update mesh like this:
 3. Clear the previous mesh buffer and append each mesh to the mesh buffer.
 4. The OpenGL renderer renders the mesh buffer.
 
-__furtherly improve current rendering pipeline__
+### furtherly improve current rendering pipeline
 
 Just luckily came across an article about FireFox's new WebRenderer: [The whole web at maximum FPS: How WebRender gets rid of jank](https://hacks.mozilla.org/2017/10/the-whole-web-at-maximum-fps-how-webrender-gets-rid-of-jank/).
 
@@ -87,7 +87,7 @@ See also greggman's [Rethinking UI APIs](https://games.greggman.com/game/rethink
 
 And another article about the quantum CSS engine: [Inside a super fast CSS engine: Quantum CSS (aka Stylo)](https://hacks.mozilla.org/2017/08/inside-a-super-fast-css-engine-quantum-css-aka-stylo/). The most important and valuable part to us in it, is *Speed up restyles with the Rule Tree*.
 
-__basic node properties__
+### basic node properties
 
 Node:
 
@@ -101,13 +101,13 @@ Node:
 	
 	We don't attach a `GUIStyle` to every node because that's not necessary: we only need to know what kind of styles are changed to what for a node when rendering. A dynamic-sized modifier list is a perfect solution. The list can be null or empty, which means the default style is used.
 
-__styling__
+### styling
 
 * Current styling is complete separated from the render-tree:
 
 GUISkin ===have===> StyleModifiers ===applied to===> GUIStyle ===modify===> properties of a Node and its primitive ===rendered with===>Primitive renderers
-														¡ü
-LayoutOptions ===have===> StyleModifiers ===applied to==¡ü
+														â†‘
+LayoutOptions ===have===> StyleModifiers ===applied to==â†‘
 
 There are three level of style.
 
