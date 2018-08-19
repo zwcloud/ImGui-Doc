@@ -114,3 +114,11 @@ There are three level of style.
 1. Skin rules: the default style. `GUISkin`
 2. per-Control instance rules: custom styles. `LayoutOptions` (It should be renamed to `StyleOptions`.)
 3. per-Node rules (not implemented and need further consideration): used internally for custom controls
+
+### Rethinking node-based layout
+
+* `Node` contains the hierarchy info, i.e. who is whose child or parent.
+* `LayoutEntry` contains the box-model data, such as min(max)-width(height), horizontal(vertical)-stretch factor, border and padding.
+* `LayoutGroup` inherits `LayoutEntry` and it contains the group related layout data, such as cell-spacing and alignment.
+
+Layout always happens on a `LayoutGroup`: `LayoutGroup.Layout`.
