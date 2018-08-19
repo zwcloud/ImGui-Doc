@@ -117,8 +117,52 @@ There are three level of style.
 
 ### Rethinking node-based layout
 
-* `Node` contains the hierarchy info, i.e. who is whose child or parent.
+* `Node` contains the hierarchy info, i.e. who is whose child or parent. __And__ it determines the pivot point of child nodes.
 * `LayoutEntry` contains the box-model data, such as min(max)-width(height), horizontal(vertical)-stretch factor, border and padding.
 * `LayoutGroup` inherits `LayoutEntry` and it contains the group related layout data, such as cell-spacing and alignment.
 
 Layout always happens on a `LayoutGroup`: `LayoutGroup.Layout`.
+
+We should allow a `Node` be created without attaching `LayoutEntry` and `LayoutGroup`. This kind of node may be:
+
+* a "fixed" node: fixed position and fixed size
+* a logical container node: used to group nodes logically
+
+So, what's the meaning of grouping nodes logically?
+
+It acts like an empty `GameObject` in a Unity scene:
+
+![Unity: use an empty GameObject as a logical container.](img/unity_empty_gameobject.png)
+
+Or like a default `<div>` element in HTML:
+
+![HTML: use a div as a logical container.](img/html_default_div.png)
+
+	<html>
+
+	<head>
+	  <style>
+		/*adjust default div style to the same
+		strategy used by ImGui.*/
+		div {
+		  display: flex;
+		  flex-direction: column;
+		  position: relative;
+		}
+	  </style>
+	</head>
+
+	<body>
+	  <div style="width: 200px; height:200px;">
+		<button>Button A</button>
+		<div><!--the default logical container-->
+		  <button>Button B</button>
+		  <button>Button C</button>
+		</div>
+		<button>Button D</button>
+	  </div>
+	</body>
+
+	</html>
+
+The default logical container `<div>` could be removed without having any influence on existing layout.
