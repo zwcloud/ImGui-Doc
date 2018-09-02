@@ -126,8 +126,9 @@ Layout always happens on a `LayoutGroup`: `LayoutGroup.Layout`.
 We should allow a `Node` be created without attaching `LayoutEntry` and `LayoutGroup`. This kind of node may be:
 
 * a "fixed" node: fixed position and fixed size
-* a logical container node: used to group nodes logically
+* <del>a logical container node: used to group nodes logically</del>
 
+<del>
 So, what's the meaning of grouping nodes logically?
 
 It acts like an empty `GameObject` in a Unity scene:
@@ -166,3 +167,16 @@ Or like a default `<div>` element in HTML:
 	</html>
 
 The default logical container `<div>` could be removed without having any influence on existing layout.
+</del>
+
+After considering for a few days, the logical container is dropped. It turns out not practical: it introduced many subtle challenges to the layout working flow and they are tricky to solve and maintain.
+
+Instead, ImGui will stick to the old rules. Let's make that explicit below:
+
+1. Plain nodes are not allowed to be added to a layout-ed node tree, which should only contain LayoutEntry and LayoutGroup;
+2. LayoutEntry nodes should always be a children of a LayoutGroup;
+3. LayoutEntry nodes are always leaf nodes.
+
+In practical, plain nodes are used to create the node tree of a control that are manually layout-ed. LayoutGroup and LayoutEntry nodes are used to create node tree of a control that is auto-layout-ed.
+
+And, to group nodes logically in a control,  group them by a manual created list or tree instead. Do not depend on the render tree!
