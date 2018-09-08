@@ -6,7 +6,8 @@ There are four levels of rendering layers from top to base:
 * Layer 2: __render tree__
     Each control corresponds with a sub-tree in the render tree. Each node on the render tree corresponds to a primitive. Style should be computed at this layer and applied to the primitive.
 * Layer 3: __primitive__
-    The minimal abstract rendering unit: line-segments, rectangles, triangles, circles, polygon, ployline, arcs, bezier-curves, quadratic-curves and so on.
+    The minimal abstract rendering unit: line-segments, rectangles, triangles, circles, polygon, ployline, arcs, bezier-curves, quadratic-curves and so on.  
+	(Box-model borders are polygon primitives.)
 * Layer 4: __basic rendering API (interface)__
     Possible implementations:
 
