@@ -26,7 +26,7 @@ Let's take the creation of a node when the application starts up for example. If
 we will adding duplcated nodes to the render-tree every time when the method is called. And that is not the expected behavior.
 What we need is to create only once when the application starts up.
 
-The first solution to this come to my mind is to use a *dirty flag*. It just works. ImGui will use this approach for now. I think there are some more flexible solutions.
+<del>The first solution to this come to my mind is to use a *dirty flag*. It just works. ImGui will use this approach for now.</del> I think there are some more flexible solutions.
 
 After thinking and trying for a month, *dirty flags* turn out not practical in an immediate mode UI since there is no `event` in immediate mode. We will use something like the conception `hot` instead. So what is `hot`? A control is hot when it has the focus.
 
@@ -109,11 +109,30 @@ GUISkin ===have===> StyleModifiers ===applied to===> GUIStyle ===modify===> prop
 														↑
 LayoutOptions ===have===> StyleModifiers ===applied to==↑
 
-There are three level of style.
+__logical structure of styling__
 
-1. Skin rules: the default style. `GUISkin`
-2. per-Control instance rules: custom styles. `LayoutOptions` (It should be renamed to `StyleOptions`.)
-3. per-Node rules (not implemented and need further consideration): used internally for custom controls
+There are three level of style. 
+
+1. application-level: a preset collection of rules for each kind of control
+2. control-instance-level: user-defined rules for each control instance
+3. node-level: internal rules for a node of a control
+
+__implementation structure of styling__
+
+basic structure:
+
+* rule: a `StyleModifier`
+* computed style: `GUIStyle` modified by `StyleModifiers`
+
+upper structure:
+
+* application-level: `GUISkin` as the field of a `Window` or a `Application`
+* control-instance-level: `List<StyleModifier>` as the parameter of APIs such as `GUI.Button` and `GUILayout.Button`
+* node-level: `Stack<StyleModifier>` as the field of a `Node`
+
+Computed Style:
+
+Final style used when layout and drawing the node tree. It is calcuated once the node-level style is changed.
 
 ### Rethinking node-based layout
 
