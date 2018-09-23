@@ -107,7 +107,7 @@ Node:
 
 ```
 GUISkin ===have===> StyleModifiers ===applied to===> GUIStyle
-														↑
+                                                        ↑
 LayoutOptions ===have===> StyleModifiers ===applied to==↑
 
 GUIStyle===modify===> properties of a Node and its primitive ===rendered with===>Primitive renderers
