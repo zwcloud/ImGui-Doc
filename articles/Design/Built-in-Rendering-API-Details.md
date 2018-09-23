@@ -1,6 +1,6 @@
 # General
 
-1. Redraw every meshes every frame. __No dirty region__ that marks rectanges needs to be repaint like legacy CPU-based rendering system. If any control is *hot*, then repaint it every frame.
+1. Redraw every meshes every frame. __No dirty region__ that marks rectangles needs to be repaint like legacy CPU-based rendering system. If any control is *hot*, then repaint it every frame.
 2. Optimization:
 	* Clip the meshes against the scroll rectangle, the window and the form.
 	* Update only hot and active control's primitive: no dirty flag.
@@ -8,9 +8,9 @@
 
 # Details
 
-## improtant: Text-related caches__
+## important: Text-related caches__
 
-It is too expensive to rebuild text meshes for a piece of text with format. We need to cache it and also keep the flexibity to not rebuild too much when a piece of text and its format is changed.
+It is too expensive to rebuild text meshes for a piece of text with format. We need to cache it and also keep the flexibility to not rebuild too much when a piece of text and its format is changed.
 
 Then we need a cache system that caches all proper layers of text-related objects and values.
 
