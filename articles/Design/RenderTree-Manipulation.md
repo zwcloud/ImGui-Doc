@@ -105,9 +105,13 @@ Node:
 
 * Current styling is complete separated from the render-tree:
 
-GUISkin ===have===> StyleModifiers ===applied to===> GUIStyle ===modify===> properties of a Node and its primitive ===rendered with===>Primitive renderers
+```
+GUISkin ===have===> StyleModifiers ===applied to===> GUIStyle
 														↑
 LayoutOptions ===have===> StyleModifiers ===applied to==↑
+
+GUIStyle===modify===> properties of a Node and its primitive ===rendered with===>Primitive renderers
+```
 
 __logical structure of styling__
 
@@ -146,47 +150,6 @@ We should allow a `Node` be created without attaching `LayoutEntry` and `LayoutG
 
 * a "fixed" node: fixed position and fixed size
 * <del>a logical container node: used to group nodes logically</del>
-
-<del>
-So, what's the meaning of grouping nodes logically?
-
-It acts like an empty `GameObject` in a Unity scene:
-
-![Unity: use an empty GameObject as a logical container.](img/unity_empty_gameobject.png)
-
-Or like a default `<div>` element in HTML:
-
-![HTML: use a div as a logical container.](img/html_default_div.png)
-
-	<html>
-
-	<head>
-	  <style>
-		/*adjust default div style to the same
-		strategy used by ImGui.*/
-		div {
-		  display: flex;
-		  flex-direction: column;
-		  position: relative;
-		}
-	  </style>
-	</head>
-
-	<body>
-	  <div style="width: 200px; height:200px;">
-		<button>Button A</button>
-		<div><!--the default logical container-->
-		  <button>Button B</button>
-		  <button>Button C</button>
-		</div>
-		<button>Button D</button>
-	  </div>
-	</body>
-
-	</html>
-
-The default logical container `<div>` could be removed without having any influence on existing layout.
-</del>
 
 After considering for a few days, the logical container is dropped. It turns out not practical: it introduced many subtle challenges to the layout working flow and they are tricky to solve and maintain.
 
