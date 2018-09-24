@@ -30,12 +30,13 @@ What we need is to create only once when the application starts up.
 
 After thinking and trying for a month, *dirty flags* turn out not practical in an immediate mode UI since there is no `event` in immediate mode. We will use something like the conception `hot` instead. So what is `hot`? A control is hot when it has the focus.
 
-After having implemented render-tree-based rendering, I think that a single hot state is still enough. Some reasons:
+After having implemented render-tree-based rendering, I think that a single hot state is still not enough. Some reasons:
 
 * If the application is running on a device that supports multi-touch, then multiple controls could have the focus.
 * "Focus" will not suffice when it comes to animation: some controls plays animation, but is not focused.
 
 The state of a render-tree node should be:
+
 * __normal__
 * __hovered__
 * __hot__
@@ -95,11 +96,13 @@ Node:
 
 	Current Id generation method is fine. Factors that are taken into consideration, when generate an id, are: id stack, text component of the control. Text component of the control is the text directly related to the control, such as the text of a `Label` and the text on a `Button`. The id of the root node of a control is the id of the control.
 
-* `Name`: an extra unique identifier. It's a human-readable text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic.
+* `Name`: an extra unique identifier. It's a user-friendly text like `WindowTitle`, `Caption`, `Close Button`, etc. It will be used in the control logic to easily fetch nodes that is needed when running control logic.
 
-* `StyleModifiers`: an list of style __modifiers__. An `StyleModifier` is an object used to override the default style, like a CSS rule that overrides the default style defined by the web browser.
+* `RuleSet`: a list of style __rules__. A rule is used to override the application-level style, like a CSS rule that overrides the default style defined by the web browser.
 	
-	We don't attach a `GUIStyle` to every node because that's not necessary: we only need to know what kind of styles are changed to what for a node when rendering. A dynamic-sized modifier list is a perfect solution. The list can be null or empty, which means the default style is used.
+	We don't attach a `GUIStyle` to every node because that's not necessary: we only need to know what kind of styles are changed to what for a node when rendering. A dynamic-sized modifier list is a perfect solution. The list can be null or empty, which means the default style is used. `GUIStyle` will be finally made static or a singleton.
+
+* `State`: a `GUIState` representing the state of this node. However, most node is not stateful, but for simplicity this property is added to every node. (TODO)
 
 ### styling
 
