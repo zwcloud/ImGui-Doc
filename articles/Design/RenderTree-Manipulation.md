@@ -102,19 +102,9 @@ Node:
 	
 	We don't attach a `GUIStyle` to every node because that's not necessary: we only need to know what kind of styles are changed to what for a node when rendering. A dynamic-sized modifier list is a perfect solution. The list can be null or empty, which means the default style is used. `GUIStyle` will be finally made static or a singleton.
 
-* `State`: a `GUIState` representing the state of this node. However, most node is not stateful, but for simplicity this property is added to every node. (TODO)
+* `State`: a `GUIState` representing the state of this node.
 
 ### styling
-
-* Current styling is complete separated from the render-tree:
-
-```
-GUISkin ===have===> StyleModifiers ===applied to===> GUIStyle
-                                                        ↑
-LayoutOptions ===have===> StyleModifiers ===applied to==↑
-
-GUIStyle===modify===> properties of a Node and its primitive ===rendered with===>Primitive renderers
-```
 
 __logical structure of styling__
 
@@ -128,18 +118,16 @@ __implementation structure of styling__
 
 basic structure:
 
-* rule: a `StyleModifier`
-* computed style: `GUIStyle` modified by `StyleModifiers`
+* rule: a `StyleRule`: name, value and state
+* rule set: a collection of rule, set per-node
 
 upper structure:
 
 * application-level: `GUISkin` as the field of a `Window` or a `Application`
-* control-instance-level: `List<StyleModifier>` as the parameter of APIs such as `GUI.Button` and `GUILayout.Button`
-* node-level: `Stack<StyleModifier>` as the field of a `Node`
+* control-instance-level: `StyleOptions`(temporarily named `LayoutOptions`) as the parameter of APIs such as `GUI.Button` and `GUILayout.Button`
+* node-level: `StyleRuleSet` as the field of a `Node`.
 
-Computed Style:
-
-Final style used when layout and drawing the node tree. It is calculated once the node-level style is changed.
+The value used for rendering and layouting is got from the `StyleRuleSet` of a `Node` by its `State`.
 
 ### Rethinking node-based layout
 
