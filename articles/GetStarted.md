@@ -42,7 +42,7 @@ namespace EmptyTemplate
 
 # Hello ImGui
 
-The Hello Wolrd Program of ImGui.
+The Hello World Program of ImGui.
 
 In MainForm.cs, override method OnGui:
 
